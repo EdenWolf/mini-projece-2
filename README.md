@@ -65,8 +65,11 @@ REST API
 לשלב של מיון המידע לפי האם מנה כלשהי היא טבעונית או לא נתשמש בכלים:
 
 Package ‘vegan’
+
 https://cran.ism.ac.jp/web/packages/vegan/vegan.pdf
+
 The vegan Package
+
 https://www.researchgate.net/profile/Gavin-Simpson-2/publication/228339454_The_vegan_Package/links/0912f50be86bc29a7f000000/The-vegan-Package.pdf
 
 
@@ -95,4 +98,4 @@ https://www.veganfirst.com/article/how-to-identify-vegan-products-read-vegan-lab
 
 https://thevou.com/lifestyle/2019-the-world-of-vegan-but-how-many-vegans-are-in-the-world/
 
-כתבה בה מדובר על העליב בכמות הטבעונים והצמחונים בשנים האחרונות.
+כתבה בה מדובר על העליה בכמות הטבעונים והצמחונים בשנים האחרונות.
