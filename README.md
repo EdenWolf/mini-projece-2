@@ -62,6 +62,15 @@ Puppeteer
 MongoDB
 REST API
 
+לשלב של מיון המידע לפי האם מנה כלשהי היא טבעונית או לא נתשמש בכלים:
+
+Package ‘vegan’
+https://cran.ism.ac.jp/web/packages/vegan/vegan.pdf
+The vegan Package
+https://www.researchgate.net/profile/Gavin-Simpson-2/publication/228339454_The_vegan_Package/links/0912f50be86bc29a7f000000/The-vegan-Package.pdf
+
+
+
 לאחר השלב הראשון של הוצאת המידע, אירגונו ואיחסונו, נרצה להציג אותו באופן נעים לעין, הכולל הצגה של המנות או המסעדות המגישות מנות צמחוניות או טבעוניות על מפה, ובנוסף אפשרויות של חיפוש על פי מילות מפתח, מיון וסינון של האפשרויות השונות.
 בחלק זה של העבודה נשתמש בכלים הבאים:
 
@@ -81,3 +90,9 @@ Chakra UI
 https://www.veganfirst.com/article/how-to-identify-vegan-products-read-vegan-labels
 
 כתבה המסבירה כיצד מרשימת מרכיבים ניתן להבין האם מנה כלשהי היא טבעונית.
+
+### This Is How Many Vegans Are In The World Right Now (2021 Update)
+
+https://thevou.com/lifestyle/2019-the-world-of-vegan-but-how-many-vegans-are-in-the-world/
+
+כתבה בה מדובר על העליב בכמות הטבעונים והצמחונים בשנים האחרונות.
