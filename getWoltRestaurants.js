@@ -53,7 +53,7 @@ async function getRestaurants() {
     track_id: item.track_id,
     title: item.title,
     filters: item.filtering.filters[0].values,
-    image: item.image,
+    image: item.image.url,
     address: item.venue.address,
     location: item.venue.location,
     name: item.venue.name,
