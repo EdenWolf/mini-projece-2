@@ -32,4 +32,4 @@ async function getRestaurantsData(sourceName) {
   return data;
 }
 
-module.exports = { getRestaurantsData };
+module.exports = { getRestaurantsData, getData };

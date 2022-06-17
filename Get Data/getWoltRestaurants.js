@@ -3,7 +3,7 @@ const { getRestaurantsData } = require("./getRestaurantsData");
 
 // get the restaurants from the data
 async function getRestaurants() {
-  const data = await getRestaurantsData("wolt");
+  const data = await getRestaurantsData("Wolt");
 
   const sections = data.map((item) => item.data.sections[1]);
 
@@ -23,7 +23,7 @@ async function getRestaurants() {
   }));
 
   let restaurants = JSON.stringify(myData);
-  fs.writeFileSync("../JSON Files/woltRestaurantsData.json", restaurants);
+  fs.writeFileSync("../JSON Files/WoltRestaurantsData.json", restaurants);
 }
 
 getRestaurants();
