@@ -1,377 +1,377 @@
 {
     "Wolt": [
         {
-            "city": "",
+            "city": "אזור יבנה",
             "url": "https://restaurant-api.wolt.com/v1/pages/restaurants?lat=31.861934040036914&lon=34.73880889349573"
         },
         {
-            "city": "",
+            "city": "אשדוד",
             "url": "https://restaurant-api.wolt.com/v1/pages/restaurants?lat=31.8226123073281&lon=34.656207787820875"
         },
         {
-            "city": "",
+            "city": "השרון",
             "url": "https://restaurant-api.wolt.com/v1/pages/restaurants?lat=32.17538379893091&lon=34.89257605007606"
         },
         {
-            "city": "",
+            "city": "נס ציונה - רחובות",
             "url": "https://restaurant-api.wolt.com/v1/pages/restaurants?lat=31.902428004772347&lon=34.80746574626252"
         },
         {
-            "city": "",
+            "city": "תל אביב-יפו",
             "url": "https://restaurant-api.wolt.com/v1/pages/restaurants?lat=32.087236876497585&lon=34.78698525756491"
         },
         {
-            "city": "",
+            "city": "אזור נתניה",
             "url": "https://restaurant-api.wolt.com/v1/pages/restaurants?lat=32.30275178459601&lon=34.8626069423332"
         },
         {
-            "city": "",
+            "city": "באר שבע",
             "url": "https://restaurant-api.wolt.com/v1/pages/restaurants?lat=31.25049530861928&lon=34.79046992070812"
         },
         {
-            "city": "",
+            "city": "חיפה",
             "url": "https://restaurant-api.wolt.com/v1/pages/restaurants?lat=32.79952296612683&lon=34.98459479897443"
         },
         {
-            "city": "",
+            "city": "פתח תקוה - בקעת אונו",
             "url": "https://restaurant-api.wolt.com/v1/pages/restaurants?lat=32.07116626318343&lon=34.87747231526427"
         },
         {
-            "city": "",
+            "city": "אזור פרדס חנה - חדרה",
             "url": "https://restaurant-api.wolt.com/v1/pages/restaurants?lat=32.458223691314956&lon=34.92813930894266"
         },
         {
-            "city": "",
+            "city": "הרצליה - רמת השרון",
             "url": "https://restaurant-api.wolt.com/v1/pages/restaurants?lat=32.168344232767616&lon=34.83246849366997"
         },
         {
-            "city": "",
+            "city": "ירושלים",
             "url": "https://restaurant-api.wolt.com/v1/pages/restaurants?lat=31.771914195076675&lon=35.20696303876315"
         },
         {
-            "city": "",
+            "city": "ראשון לציון, חולון, בת ים",
             "url": "https://restaurant-api.wolt.com/v1/pages/restaurants?lat=31.997324147971867&lon=34.780000379407966"
         }
     ],
     "10bis": [
         {
-            "city": "",
+            "city": "אבן יהודה",
             "url": "https://www.10bis.co.il/NextApi/searchRestaurants?shoppingCartGuid=81961fee-7f52-4279-a863-9169d386d341&culture=he-IL&uiCulture=he&isMobileDevice=false&timestamp=1655386742189&cityId=54&streetId=49720&houseNumber=3&addressKey=54-49720-3&deliveryMethod=delivery"
         },
         {
-            "city": "",
+            "city": "אור יהודה",
             "url": "https://www.10bis.co.il/NextApi/searchRestaurants?shoppingCartGuid=81961fee-7f52-4279-a863-9169d386d341&culture=he-IL&uiCulture=he&isMobileDevice=false&timestamp=1655386820003&cityId=1&streetId=7258&houseNumber=10&addressKey=1-7258-10&deliveryMethod=delivery"
         },
         {
-            "city": "",
+            "city": "אור עקיבא",
             "url": "https://www.10bis.co.il/NextApi/searchRestaurants?shoppingCartGuid=81961fee-7f52-4279-a863-9169d386d341&culture=he-IL&uiCulture=he&isMobileDevice=false&timestamp=1655386853263&cityId=78&streetId=20323&houseNumber=17&addressKey=78-20323-17&deliveryMethod=delivery"
         },
         {
-            "city": "",
+            "city": "אזור",
             "url": "https://www.10bis.co.il/NextApi/searchRestaurants?shoppingCartGuid=81961fee-7f52-4279-a863-9169d386d341&culture=he-IL&uiCulture=he&isMobileDevice=false&timestamp=1655386895286&cityId=2&streetId=7015&houseNumber=44&addressKey=2-7015-44&deliveryMethod=delivery"
         },
         {
-            "city": "",
+            "city": "איירפורט סיטי",
             "url": "https://www.10bis.co.il/NextApi/searchRestaurants?shoppingCartGuid=81961fee-7f52-4279-a863-9169d386d341&culture=he-IL&uiCulture=he&isMobileDevice=false&timestamp=1655387023458&cityId=70&streetId=16552&houseNumber=1&addressKey=70-16552-1&deliveryMethod=delivery"
         },
         {
-            "city": "",
+            "city": "אילת",
             "url": "https://www.10bis.co.il/NextApi/searchRestaurants?shoppingCartGuid=81961fee-7f52-4279-a863-9169d386d341&culture=he-IL&uiCulture=he&isMobileDevice=false&timestamp=1655387084795&cityId=52&streetId=14015&houseNumber=4&addressKey=52-14015-4&deliveryMethod=delivery"
         },
         {
-            "city": "",
+            "city": "אשדוד",
             "url": "https://www.10bis.co.il/NextApi/searchRestaurants?shoppingCartGuid=81961fee-7f52-4279-a863-9169d386d341&culture=he-IL&uiCulture=he&isMobileDevice=false&timestamp=1655387108922&cityId=53&streetId=14948&houseNumber=15&addressKey=53-14948-15&deliveryMethod=delivery"
         },
         {
-            "city": "",
+            "city": "אשקלון",
             "url": "https://www.10bis.co.il/NextApi/searchRestaurants?shoppingCartGuid=81961fee-7f52-4279-a863-9169d386d341&culture=he-IL&uiCulture=he&isMobileDevice=false&timestamp=1655387134295&cityId=85&streetId=50070&houseNumber=12&addressKey=85-50070-12&deliveryMethod=delivery"
         },
         {
-            "city": "",
+            "city": "באקה אל-ע'רביה",
             "url": "https://www.10bis.co.il/NextApi/searchRestaurants?shoppingCartGuid=81961fee-7f52-4279-a863-9169d386d341&culture=he-IL&uiCulture=he&isMobileDevice=false&timestamp=1655387164671&cityId=38048&streetId=47213&houseNumber=1&addressKey=38048-47213-1&deliveryMethod=delivery"
         },
         {
-            "city": "",
+            "city": "באר שבע",
             "url": "https://www.10bis.co.il/NextApi/searchRestaurants?shoppingCartGuid=81961fee-7f52-4279-a863-9169d386d341&culture=he-IL&uiCulture=he&isMobileDevice=false&timestamp=1655387198405&cityId=51&streetId=13338&houseNumber=69&addressKey=51-13338-69&deliveryMethod=delivery"
         },
         {
-            "city": "",
+            "city": "בית שמש",
             "url": "https://www.10bis.co.il/NextApi/searchRestaurants?shoppingCartGuid=81961fee-7f52-4279-a863-9169d386d341&culture=he-IL&uiCulture=he&isMobileDevice=false&timestamp=1655387221307&cityId=100&streetId=51959&houseNumber=1&addressKey=100-51959-1&deliveryMethod=delivery"
         },
         {
-            "city": "",
+            "city": "בני ברק",
             "url": "https://www.10bis.co.il/NextApi/searchRestaurants?shoppingCartGuid=81961fee-7f52-4279-a863-9169d386d341&culture=he-IL&uiCulture=he&isMobileDevice=true&timestamp=1655387268097&cityId=3&streetId=26223&houseNumber=12&addressKey=3-26223-12&deliveryMethod=delivery"
         },
         {
-            "city": "",
+            "city": "בני דרור",
             "url": "https://www.10bis.co.il/NextApi/searchRestaurants?shoppingCartGuid=81961fee-7f52-4279-a863-9169d386d341&culture=he-IL&uiCulture=he&isMobileDevice=true&timestamp=1655387282844&cityId=820&streetId=46967&houseNumber=5&addressKey=820-46967-5&deliveryMethod=delivery"
         },
         {
-            "city": "",
+            "city": "בנימינה גבעת עדה",
             "url": "https://www.10bis.co.il/NextApi/searchRestaurants?shoppingCartGuid=81961fee-7f52-4279-a863-9169d386d341&culture=he-IL&uiCulture=he&isMobileDevice=true&timestamp=1655387310244&cityId=138&streetId=20232&houseNumber=2&addressKey=138-20232-2&deliveryMethod=delivery"
         },
         {
-            "city": "",
+            "city": "ראשון לציון, חולון, בת ים",
             "url": "https://www.10bis.co.il/NextApi/searchRestaurants?shoppingCartGuid=81961fee-7f52-4279-a863-9169d386d341&culture=he-IL&uiCulture=he&isMobileDevice=true&timestamp=1655387338941&cityId=4&streetId=6799&houseNumber=49&addressKey=4-6799-49&deliveryMethod=delivery"
         },
         {
-            "city": "",
+            "city": "גבעת שמואל",
             "url": "https://www.10bis.co.il/NextApi/searchRestaurants?shoppingCartGuid=81961fee-7f52-4279-a863-9169d386d341&culture=he-IL&uiCulture=he&isMobileDevice=true&timestamp=1655387358634&cityId=44&streetId=10152&houseNumber=11&addressKey=44-10152-11&deliveryMethod=delivery"
         },
         {
-            "city": "",
+            "city": "גבעתיים",
             "url": "https://www.10bis.co.il/NextApi/searchRestaurants?shoppingCartGuid=81961fee-7f52-4279-a863-9169d386d341&culture=he-IL&uiCulture=he&isMobileDevice=true&timestamp=1655387379394&cityId=5&streetId=47829&houseNumber=17&addressKey=5-47829-17&deliveryMethod=delivery"
         },
         {
-            "city": "",
+            "city": "גדרה",
             "url": "https://www.10bis.co.il/NextApi/searchRestaurants?shoppingCartGuid=81961fee-7f52-4279-a863-9169d386d341&culture=he-IL&uiCulture=he&isMobileDevice=true&timestamp=1655387402405&cityId=97&streetId=17490&houseNumber=6&addressKey=97-17490-6&deliveryMethod=delivery"
         },
         {
-            "city": "",
+            "city": "גן יבנה",
             "url": "https://www.10bis.co.il/NextApi/searchRestaurants?shoppingCartGuid=81961fee-7f52-4279-a863-9169d386d341&culture=he-IL&uiCulture=he&isMobileDevice=true&timestamp=1655387420394&cityId=649&streetId=46642&houseNumber=2&addressKey=649-46642-2&deliveryMethod=delivery"
         },
         {
-            "city": "",
+            "city": "גני תקווה",
             "url": "https://www.10bis.co.il/NextApi/searchRestaurants?shoppingCartGuid=81961fee-7f52-4279-a863-9169d386d341&culture=he-IL&uiCulture=he&isMobileDevice=true&timestamp=1655387446183&cityId=6&streetId=7130&houseNumber=23&addressKey=6-7130-23&deliveryMethod=delivery"
         },
         {
-            "city": "",
+            "city": "דימונה",
             "url": "https://www.10bis.co.il/NextApi/searchRestaurants?shoppingCartGuid=81961fee-7f52-4279-a863-9169d386d341&culture=he-IL&uiCulture=he&isMobileDevice=true&timestamp=1655387467637&cityId=84&streetId=46485&houseNumber=2&addressKey=84-46485-2&deliveryMethod=delivery"
         },
         {
-            "city": "",
+            "city": "השרון",
             "url": "https://www.10bis.co.il/NextApi/searchRestaurants?shoppingCartGuid=81961fee-7f52-4279-a863-9169d386d341&culture=he-IL&uiCulture=he&isMobileDevice=true&timestamp=1655387489193&cityId=7&streetId=5747&houseNumber=30&addressKey=7-5747-30&deliveryMethod=delivery"
         },
         {
-            "city": "",
+            "city": "הרצליה - רמת השרון",
             "url": "https://www.10bis.co.il/NextApi/searchRestaurants?shoppingCartGuid=81961fee-7f52-4279-a863-9169d386d341&culture=he-IL&uiCulture=he&isMobileDevice=true&timestamp=1655387512329&cityId=9&streetId=2658&houseNumber=1&addressKey=9-2658-1&deliveryMethod=delivery"
         },
         {
-            "city": "",
+            "city": "זיתן",
             "url": "https://www.10bis.co.il/NextApi/searchRestaurants?shoppingCartGuid=81961fee-7f52-4279-a863-9169d386d341&culture=he-IL&uiCulture=he&isMobileDevice=true&timestamp=1655387546793&cityId=1127&streetId=65136&houseNumber=10&addressKey=1127-65136-10&deliveryMethod=delivery"
         },
         {
-            "city": "",
+            "city": "זכרון יעקב",
             "url": "https://www.10bis.co.il/NextApi/searchRestaurants?shoppingCartGuid=81961fee-7f52-4279-a863-9169d386d341&culture=he-IL&uiCulture=he&isMobileDevice=true&timestamp=1655387560389&cityId=105&streetId=22165&houseNumber=4&addressKey=105-22165-4&deliveryMethod=delivery"
         },
         {
-            "city": "",
+            "city": "אזור פרדס חנה - חדרה",
             "url": "https://www.10bis.co.il/NextApi/searchRestaurants?shoppingCartGuid=81961fee-7f52-4279-a863-9169d386d341&culture=he-IL&uiCulture=he&isMobileDevice=true&timestamp=1655387585780&cityId=90&streetId=18576&houseNumber=13&addressKey=90-18576-13&deliveryMethod=delivery"
         },
         {
-            "city": "",
+            "city": "ראשון לציון, חולון, בת ים",
             "url": "https://www.10bis.co.il/NextApi/searchRestaurants?shoppingCartGuid=81961fee-7f52-4279-a863-9169d386d341&culture=he-IL&uiCulture=he&isMobileDevice=true&timestamp=1655387638550&cityId=10&streetId=23447&houseNumber=12&addressKey=10-23447-12&deliveryMethod=delivery"
         },
         {
-            "city": "",
+            "city": "חיפה",
             "url": "https://www.10bis.co.il/NextApi/searchRestaurants?shoppingCartGuid=81961fee-7f52-4279-a863-9169d386d341&culture=he-IL&uiCulture=he&isMobileDevice=true&timestamp=1655387653516&cityId=47&streetId=10477&houseNumber=44&addressKey=47-10477-44&deliveryMethod=delivery"
         },
         {
-            "city": "",
+            "city": "חרוצים",
             "url": "https://www.10bis.co.il/NextApi/searchRestaurants?shoppingCartGuid=81961fee-7f52-4279-a863-9169d386d341&culture=he-IL&uiCulture=he&isMobileDevice=true&timestamp=1655387672281&cityId=1234&streetId=22930&houseNumber=10&addressKey=1234-22930-10&deliveryMethod=delivery"
         },
         {
-            "city": "",
+            "city": "חריש",
             "url": "https://www.10bis.co.il/NextApi/searchRestaurants?shoppingCartGuid=81961fee-7f52-4279-a863-9169d386d341&culture=he-IL&uiCulture=he&isMobileDevice=true&timestamp=1655387739540&cityId=38112&streetId=38034&houseNumber=4&addressKey=38112-38034-4&deliveryMethod=delivery"
         },
         {
-            "city": "",
+            "city": "טבריה",
             "url": "https://www.10bis.co.il/NextApi/searchRestaurants?shoppingCartGuid=81961fee-7f52-4279-a863-9169d386d341&culture=he-IL&uiCulture=he&isMobileDevice=true&timestamp=1655387757222&cityId=114&streetId=46029&houseNumber=2&addressKey=114-46029-2&deliveryMethod=delivery"
         },
         {
-            "city": "",
+            "city": "טירת כרמל",
             "url": "https://www.10bis.co.il/NextApi/searchRestaurants?shoppingCartGuid=81961fee-7f52-4279-a863-9169d386d341&culture=he-IL&uiCulture=he&isMobileDevice=true&timestamp=1655387820368&cityId=65&streetId=65370&houseNumber=15&addressKey=65-65370-15&deliveryMethod=delivery"
         },
         {
-            "city": "",
+            "city": "יבנה",
             "url": "https://www.10bis.co.il/NextApi/searchRestaurants?shoppingCartGuid=81961fee-7f52-4279-a863-9169d386d341&culture=he-IL&uiCulture=he&isMobileDevice=true&timestamp=1655387858013&cityId=50&streetId=49069&houseNumber=9&addressKey=50-49069-9&deliveryMethod=delivery"
         },
         {
-            "city": "",
+            "city": "יהוד",
             "url": "https://www.10bis.co.il/NextApi/searchRestaurants?shoppingCartGuid=81961fee-7f52-4279-a863-9169d386d341&culture=he-IL&uiCulture=he&isMobileDevice=true&timestamp=1655387876251&cityId=11&streetId=6709&houseNumber=50&addressKey=11-6709-50&deliveryMethod=delivery"
         },
         {
-            "city": "",
+            "city": "יוקנעם",
             "url": "https://www.10bis.co.il/NextApi/searchRestaurants?shoppingCartGuid=81961fee-7f52-4279-a863-9169d386d341&culture=he-IL&uiCulture=he&isMobileDevice=true&timestamp=1655387897652&cityId=63&streetId=20917&houseNumber=5&addressKey=63-20917-5&deliveryMethod=delivery"
         },
         {
-            "city": "",
+            "city": "ירושלים",
             "url": "https://www.10bis.co.il/NextApi/searchRestaurants?shoppingCartGuid=81961fee-7f52-4279-a863-9169d386d341&culture=he-IL&uiCulture=he&isMobileDevice=true&timestamp=1655387923091&cityId=49&streetId=12055&houseNumber=228&addressKey=49-12055-228&deliveryMethod=delivery"
         },
         {
-            "city": "",
+            "city": "כפר סבא",
             "url": "https://www.10bis.co.il/NextApi/searchRestaurants?shoppingCartGuid=81961fee-7f52-4279-a863-9169d386d341&culture=he-IL&uiCulture=he&isMobileDevice=true&timestamp=1655387942802&cityId=12&streetId=2409&houseNumber=13&addressKey=12-2409-13&deliveryMethod=delivery"
         },
         {
-            "city": "",
+            "city": "כפר קאסם",
             "url": "https://www.10bis.co.il/NextApi/searchRestaurants?shoppingCartGuid=81961fee-7f52-4279-a863-9169d386d341&culture=he-IL&uiCulture=he&isMobileDevice=true&timestamp=1655387969652&cityId=177&streetId=69420&houseNumber=29&addressKey=177-69420-29&deliveryMethod=delivery"
         },
         {
-            "city": "",
+            "city": "כרמיאל",
             "url": "https://www.10bis.co.il/NextApi/searchRestaurants?shoppingCartGuid=81961fee-7f52-4279-a863-9169d386d341&culture=he-IL&uiCulture=he&isMobileDevice=true&timestamp=1655387990758&cityId=91&streetId=51235&houseNumber=3&addressKey=91-51235-3&deliveryMethod=delivery"
         },
         {
-            "city": "",
+            "city": "לוד",
             "url": "https://www.10bis.co.il/NextApi/searchRestaurants?shoppingCartGuid=81961fee-7f52-4279-a863-9169d386d341&culture=he-IL&uiCulture=he&isMobileDevice=true&timestamp=1655388019437&cityId=64&streetId=22270&houseNumber=16&addressKey=64-22270-16&deliveryMethod=delivery"
         },
         {
-            "city": "",
+            "city": "מבשרת ציון",
             "url": "https://www.10bis.co.il/NextApi/searchRestaurants?shoppingCartGuid=81961fee-7f52-4279-a863-9169d386d341&culture=he-IL&uiCulture=he&isMobileDevice=true&timestamp=1655388037449&cityId=1232&streetId=44594&houseNumber=32&addressKey=1232-44594-32&deliveryMethod=delivery"
         },
         {
-            "city": "",
+            "city": "מודיעין מכבים רעות",
             "url": "https://www.10bis.co.il/NextApi/searchRestaurants?shoppingCartGuid=81961fee-7f52-4279-a863-9169d386d341&culture=he-IL&uiCulture=he&isMobileDevice=true&timestamp=1655388062929&cityId=30&streetId=8869&houseNumber=76&addressKey=30-8869-76&deliveryMethod=delivery"
         },
         {
-            "city": "",
+            "city": "מעלה אדומים",
             "url": "https://www.10bis.co.il/NextApi/searchRestaurants?shoppingCartGuid=81961fee-7f52-4279-a863-9169d386d341&culture=he-IL&uiCulture=he&isMobileDevice=true&timestamp=1655388100181&cityId=1595&streetId=24179&houseNumber=32&addressKey=1595-24179-32&deliveryMethod=delivery"
         },
         {
-            "city": "",
+            "city": "נהריה",
             "url": "https://www.10bis.co.il/NextApi/searchRestaurants?shoppingCartGuid=81961fee-7f52-4279-a863-9169d386d341&culture=he-IL&uiCulture=he&isMobileDevice=true&timestamp=1655388129041&cityId=154&streetId=20822&houseNumber=86&addressKey=154-20822-86&deliveryMethod=delivery"
         },
         {
-            "city": "",
+            "city": "נווה אילן",
             "url": "https://www.10bis.co.il/NextApi/searchRestaurants?shoppingCartGuid=81961fee-7f52-4279-a863-9169d386d341&culture=he-IL&uiCulture=he&isMobileDevice=true&timestamp=1655388162424&cityId=140&streetId=66149&houseNumber=48&addressKey=140-66149-48&deliveryMethod=delivery"
         },
         {
-            "city": "",
+            "city": "נווה ימין",
             "url": "https://www.10bis.co.il/NextApi/searchRestaurants?shoppingCartGuid=81961fee-7f52-4279-a863-9169d386d341&culture=he-IL&uiCulture=he&isMobileDevice=true&timestamp=1655388187368&cityId=92&streetId=17364&houseNumber=1&addressKey=92-17364-1&deliveryMethod=delivery"
         },
         {
-            "city": "",
+            "city": "נוף הגליל",
             "url": "https://www.10bis.co.il/NextApi/searchRestaurants?shoppingCartGuid=81961fee-7f52-4279-a863-9169d386d341&culture=he-IL&uiCulture=he&isMobileDevice=true&timestamp=1655388211387&cityId=126&streetId=19115&houseNumber=10&addressKey=126-19115-10&deliveryMethod=delivery"
         },
         {
-            "city": "",
+            "city": "נס ציונה - רחובות",
             "url": "https://www.10bis.co.il/NextApi/searchRestaurants?shoppingCartGuid=81961fee-7f52-4279-a863-9169d386d341&culture=he-IL&uiCulture=he&isMobileDevice=true&timestamp=1655388240721&cityId=13&streetId=5510&houseNumber=7&addressKey=13-5510-7&deliveryMethod=delivery"
         },
         {
-            "city": "",
+            "city": "נצרת",
             "url": "https://www.10bis.co.il/NextApi/searchRestaurants?shoppingCartGuid=81961fee-7f52-4279-a863-9169d386d341&culture=he-IL&uiCulture=he&isMobileDevice=true&timestamp=1655388272578&cityId=125&streetId=19449&houseNumber=11&addressKey=125-19449-11&deliveryMethod=delivery"
         },
         {
-            "city": "",
+            "city": "נשר",
             "url": "https://www.10bis.co.il/NextApi/searchRestaurants?shoppingCartGuid=81961fee-7f52-4279-a863-9169d386d341&culture=he-IL&uiCulture=he&isMobileDevice=true&timestamp=1655388296947&cityId=48&streetId=11162&houseNumber=9&addressKey=48-11162-9&deliveryMethod=delivery"
         },
         {
-            "city": "",
+            "city": "נתיבות",
             "url": "https://www.10bis.co.il/NextApi/searchRestaurants?shoppingCartGuid=81961fee-7f52-4279-a863-9169d386d341&culture=he-IL&uiCulture=he&isMobileDevice=true&timestamp=1655388316012&cityId=151&streetId=43722&houseNumber=104&addressKey=151-43722-104&deliveryMethod=delivery"
         },
         {
-            "city": "",
+            "city": "אזור נתניה",
             "url": "https://www.10bis.co.il/NextApi/searchRestaurants?shoppingCartGuid=81961fee-7f52-4279-a863-9169d386d341&culture=he-IL&uiCulture=he&isMobileDevice=true&timestamp=1655388336535&cityId=14&streetId=54859&houseNumber=11&addressKey=14-54859-11&deliveryMethod=delivery"
         },
         {
-            "city": "",
+            "city": "עומר",
             "url": "https://www.10bis.co.il/NextApi/searchRestaurants?shoppingCartGuid=81961fee-7f52-4279-a863-9169d386d341&culture=he-IL&uiCulture=he&isMobileDevice=true&timestamp=1655388362932&cityId=106&streetId=18276&houseNumber=16&addressKey=106-18276-16&deliveryMethod=delivery"
         },
         {
-            "city": "",
+            "city": "עינת",
             "url": "https://www.10bis.co.il/NextApi/searchRestaurants?shoppingCartGuid=81961fee-7f52-4279-a863-9169d386d341&culture=he-IL&uiCulture=he&isMobileDevice=true&timestamp=1655388386488&cityId=146&streetId=21979&houseNumber=1&addressKey=146-21979-1&deliveryMethod=delivery"
         },
         {
-            "city": "",
+            "city": "עפולה",
             "url": "https://www.10bis.co.il/NextApi/searchRestaurants?shoppingCartGuid=81961fee-7f52-4279-a863-9169d386d341&culture=he-IL&uiCulture=he&isMobileDevice=true&timestamp=1655388429378&cityId=118&streetId=52613&houseNumber=4&addressKey=118-52613-4&deliveryMethod=delivery"
         },
         {
-            "city": "",
+            "city": "אזור פרדס חנה - חדרה",
             "url": "https://www.10bis.co.il/NextApi/searchRestaurants?shoppingCartGuid=81961fee-7f52-4279-a863-9169d386d341&culture=he-IL&uiCulture=he&isMobileDevice=true&timestamp=1655388448657&cityId=87&streetId=17111&houseNumber=4&addressKey=87-17111-4&deliveryMethod=delivery"
         },
         {
-            "city": "",
+            "city": "פרדסיה",
             "url": "https://www.10bis.co.il/NextApi/searchRestaurants?shoppingCartGuid=81961fee-7f52-4279-a863-9169d386d341&culture=he-IL&uiCulture=he&isMobileDevice=true&timestamp=1655388478066&cityId=139&streetId=42898&houseNumber=37&addressKey=139-42898-37&deliveryMethod=delivery"
         },
         {
-            "city": "",
+            "city": "פתח תקוה - בקעת אונו",
             "url": "https://www.10bis.co.il/NextApi/searchRestaurants?shoppingCartGuid=81961fee-7f52-4279-a863-9169d386d341&culture=he-IL&uiCulture=he&isMobileDevice=true&timestamp=1655388503059&cityId=17&streetId=1279&houseNumber=4&addressKey=17-1279-4&deliveryMethod=delivery"
         },
         {
-            "city": "",
+            "city": "קדימה צורן",
             "url": "https://www.10bis.co.il/NextApi/searchRestaurants?shoppingCartGuid=81961fee-7f52-4279-a863-9169d386d341&culture=he-IL&uiCulture=he&isMobileDevice=true&timestamp=1655388527711&cityId=56&streetId=66218&houseNumber=9&addressKey=56-66218-9&deliveryMethod=delivery"
         },
         {
-            "city": "",
+            "city": "קיסריה",
             "url": "https://www.10bis.co.il/NextApi/searchRestaurants?shoppingCartGuid=81961fee-7f52-4279-a863-9169d386d341&culture=he-IL&uiCulture=he&isMobileDevice=true&timestamp=1655388547671&cityId=77&streetId=57609&houseNumber=13&addressKey=77-57609-13&deliveryMethod=delivery"
         },
         {
-            "city": "",
+            "city": "קרית אונו",
             "url": "https://www.10bis.co.il/NextApi/searchRestaurants?shoppingCartGuid=81961fee-7f52-4279-a863-9169d386d341&culture=he-IL&uiCulture=he&isMobileDevice=true&timestamp=1655388626419&cityId=18&streetId=48186&houseNumber=2&addressKey=18-48186-2&deliveryMethod=delivery"
         },
         {
-            "city": "",
+            "city": "קרית אתא",
             "url": "https://www.10bis.co.il/NextApi/searchRestaurants?shoppingCartGuid=81961fee-7f52-4279-a863-9169d386d341&culture=he-IL&uiCulture=he&isMobileDevice=true&timestamp=1655388653849&cityId=57&streetId=15712&houseNumber=2&addressKey=57-15712-2&deliveryMethod=delivery"
         },
         {
-            "city": "",
+            "city": "קרית גת",
             "url": "https://www.10bis.co.il/NextApi/searchRestaurants?shoppingCartGuid=81961fee-7f52-4279-a863-9169d386d341&culture=he-IL&uiCulture=he&isMobileDevice=true&timestamp=1655388674301&cityId=130&streetId=20081&houseNumber=201&addressKey=130-20081-201&deliveryMethod=delivery"
         },
         {
-            "city": "",
+            "city": "קרית יערים",
             "url": "https://www.10bis.co.il/NextApi/searchRestaurants?shoppingCartGuid=81961fee-7f52-4279-a863-9169d386d341&culture=he-IL&uiCulture=he&isMobileDevice=true&timestamp=1655388693632&cityId=1299&streetId=24346&houseNumber=10&addressKey=1299-24346-10&deliveryMethod=delivery"
         },
         {
-            "city": "",
+            "city": "קרית מוצקין",
             "url": "https://www.10bis.co.il/NextApi/searchRestaurants?shoppingCartGuid=81961fee-7f52-4279-a863-9169d386d341&culture=he-IL&uiCulture=he&isMobileDevice=true&timestamp=1655388716830&cityId=61&streetId=64633&houseNumber=3&addressKey=61-64633-3&deliveryMethod=delivery"
         },
         {
-            "city": "",
+            "city": "קרית עקרון",
             "url": "https://www.10bis.co.il/NextApi/searchRestaurants?shoppingCartGuid=81961fee-7f52-4279-a863-9169d386d341&culture=he-IL&uiCulture=he&isMobileDevice=true&timestamp=1655388741448&cityId=142&streetId=20549&houseNumber=31&addressKey=142-20549-31&deliveryMethod=delivery"
         },
         {
-            "city": "",
+            "city": "קרית שמונה",
             "url": "https://www.10bis.co.il/NextApi/searchRestaurants?shoppingCartGuid=81961fee-7f52-4279-a863-9169d386d341&culture=he-IL&uiCulture=he&isMobileDevice=true&timestamp=1655388764705&cityId=83&streetId=17020&houseNumber=8&addressKey=83-17020-8&deliveryMethod=delivery"
         },
         {
-            "city": "",
+            "city": "ראש העין",
             "url": "https://www.10bis.co.il/NextApi/searchRestaurants?shoppingCartGuid=81961fee-7f52-4279-a863-9169d386d341&culture=he-IL&uiCulture=he&isMobileDevice=true&timestamp=1655388788466&cityId=37&streetId=9245&houseNumber=6&addressKey=37-9245-6&deliveryMethod=delivery"
         },
         {
-            "city": "",
+            "city": "ראשון לציון, חולון, בת ים",
             "url": "https://www.10bis.co.il/NextApi/searchRestaurants?shoppingCartGuid=81961fee-7f52-4279-a863-9169d386d341&culture=he-IL&uiCulture=he&isMobileDevice=true&timestamp=1655388814292&cityId=19&streetId=3299&houseNumber=16&addressKey=19-3299-16&deliveryMethod=delivery"
         },
         {
-            "city": "",
+            "city": "רהט",
             "url": "https://www.10bis.co.il/NextApi/searchRestaurants?shoppingCartGuid=81961fee-7f52-4279-a863-9169d386d341&culture=he-IL&uiCulture=he&isMobileDevice=true&timestamp=1655388837052&cityId=1321&streetId=68756&houseNumber=3&addressKey=1321-68756-3&deliveryMethod=delivery"
         },
         {
-            "city": "",
+            "city": "נס ציונה - רחובות",
             "url": "https://www.10bis.co.il/NextApi/searchRestaurants?shoppingCartGuid=81961fee-7f52-4279-a863-9169d386d341&culture=he-IL&uiCulture=he&isMobileDevice=true&timestamp=1655388857058&cityId=20&streetId=7704&houseNumber=10&addressKey=20-7704-10&deliveryMethod=delivery"
         },
         {
-            "city": "",
+            "city": "רמלה",
             "url": "https://www.10bis.co.il/NextApi/searchRestaurants?shoppingCartGuid=81961fee-7f52-4279-a863-9169d386d341&culture=he-IL&uiCulture=he&isMobileDevice=true&timestamp=1655388879425&cityId=93&streetId=51457&houseNumber=10&addressKey=93-51457-10&deliveryMethod=delivery"
         },
         {
-            "city": "",
+            "city": "רמת גן",
             "url": "https://www.10bis.co.il/NextApi/searchRestaurants?shoppingCartGuid=81961fee-7f52-4279-a863-9169d386d341&culture=he-IL&uiCulture=he&isMobileDevice=true&timestamp=1655388897630&cityId=21&streetId=1743&houseNumber=11&addressKey=21-1743-11&deliveryMethod=delivery"
         },
         {
-            "city": "",
+            "city": "הרצליה - רמת השרון",
             "url": "https://www.10bis.co.il/NextApi/searchRestaurants?shoppingCartGuid=81961fee-7f52-4279-a863-9169d386d341&culture=he-IL&uiCulture=he&isMobileDevice=true&timestamp=1655388918008&cityId=22&streetId=6572&houseNumber=14&addressKey=22-6572-14&deliveryMethod=delivery"
         },
         {
-            "city": "",
+            "city": "רמת ישי",
             "url": "https://www.10bis.co.il/NextApi/searchRestaurants?shoppingCartGuid=81961fee-7f52-4279-a863-9169d386d341&culture=he-IL&uiCulture=he&isMobileDevice=true&timestamp=1655388935693&cityId=119&streetId=18790&houseNumber=32&addressKey=119-18790-32&deliveryMethod=delivery"
         },
         {
-            "city": "",
+            "city": "רעננה",
             "url": "https://www.10bis.co.il/NextApi/searchRestaurants?shoppingCartGuid=81961fee-7f52-4279-a863-9169d386d341&culture=he-IL&uiCulture=he&isMobileDevice=true&timestamp=1655388960589&cityId=23&streetId=3724&houseNumber=11&addressKey=23-3724-11&deliveryMethod=delivery"
         },
         {
-            "city": "",
+            "city": "שדרות",
             "url": "https://www.10bis.co.il/NextApi/searchRestaurants?shoppingCartGuid=81961fee-7f52-4279-a863-9169d386d341&culture=he-IL&uiCulture=he&isMobileDevice=true&timestamp=1655388982014&cityId=1235&streetId=22972&houseNumber=30&addressKey=1235-22972-30&deliveryMethod=delivery"
         },
         {
-            "city": "",
+            "city": "שוהם",
             "url": "https://www.10bis.co.il/NextApi/searchRestaurants?shoppingCartGuid=81961fee-7f52-4279-a863-9169d386d341&culture=he-IL&uiCulture=he&isMobileDevice=true&timestamp=1655389002955&cityId=79&streetId=49887&houseNumber=4&addressKey=79-49887-4&deliveryMethod=delivery"
         },
         {
-            "city": "",
+            "city": "שפיים",
             "url": "https://www.10bis.co.il/NextApi/searchRestaurants?shoppingCartGuid=81961fee-7f52-4279-a863-9169d386d341&culture=he-IL&uiCulture=he&isMobileDevice=true&timestamp=1655389027582&cityId=66&streetId=16514&houseNumber=1&addressKey=66-16514-1&deliveryMethod=delivery"
         },
         {
-            "city": "",
+            "city": "תל אביב-יפו",
             "url": "https://www.10bis.co.il/NextApi/searchRestaurants?shoppingCartGuid=81961fee-7f52-4279-a863-9169d386d341&culture=he-IL&uiCulture=he&isMobileDevice=true&timestamp=1655389051049&cityId=24&streetId=193&houseNumber=9&addressKey=24-193-9&deliveryMethod=delivery"
         }
     ]
