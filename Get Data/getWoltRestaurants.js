@@ -1,29 +1,27 @@
-const fs = require("fs");
-const { getRestaurantsData } = require("./getRestaurantsData");
-
 // get the restaurants from the data
-async function getRestaurants() {
-  const data = await getRestaurantsData("Wolt");
+async function getWoltFormattedRestaurants(data) {
+  const formattedData = [];
 
-  const sections = data.map((item) => item.data.sections[1]);
+  data.forEach((restaurantData) => {
+    const city = restaurantData.city;
 
-  const items = [].concat.apply(
-    [],
-    sections.map((section) => section.items)
-  );
+    const sectionItems = restaurantData.data.sections[1].items;
 
-  const myData = items.map((item) => ({
-    track_id: item.track_id,
-    title: item.title,
-    filters: item.filtering.filters[0].values,
-    image: item.image.url,
-    address: item.venue.address,
-    location: item.venue.location,
-    name: item.venue.name,
-  }));
+    formattedData.push(
+      ...sectionItems.map((item) => ({
+        track_id: item.track_id,
+        title: item.title,
+        filters: item.filtering.filters[0].values,
+        image: item.image.url,
+        address: item.venue.address,
+        location: item.venue.location,
+        name: item.venue.name,
+        city: city,
+      }))
+    );
+  });
 
-  let restaurants = JSON.stringify(myData);
-  fs.writeFileSync("../JSON Files/WoltRestaurantsData.json", restaurants);
+  return formattedData;
 }
 
-getRestaurants();
+module.exports = { getWoltFormattedRestaurants };

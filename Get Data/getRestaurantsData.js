@@ -1,5 +1,6 @@
 const axios = require("axios").default;
 const fs = require("fs");
+const { getWoltFormattedRestaurants } = require("./getWoltRestaurants");
 
 // get data from url
 async function getData(url) {
@@ -11,11 +12,16 @@ async function getData(url) {
 }
 
 // get the data from the urls array
-async function getAllData(urls) {
+async function getAllData(urlsList) {
   const data = [];
 
   await Promise.all(
-    urls.map(async (url) => await getData(url).then((res) => data.push(res)))
+    urlsList.map(
+      async (item) =>
+        await getData(item.url).then((res) =>
+          data.push({ ...res, city: item.city })
+        )
+    )
   );
 
   return data;
@@ -25,11 +31,21 @@ async function getRestaurantsData(sourceName) {
   // Get urls file
   const urlsFile = fs.readFileSync("../JSON Files/urls.json");
 
-  const urls = JSON.parse(urlsFile)[sourceName];
+  const urlsList = JSON.parse(urlsFile)[sourceName];
 
-  const data = await getAllData(urls);
+  const data = await getAllData(urlsList);
 
-  return data;
+  const formattedData = await eval(
+    `get${sourceName}FormattedRestaurants(data)`
+  );
+
+  const restaurants = JSON.stringify(formattedData);
+  fs.writeFileSync(
+    `../JSON Files/${sourceName}RestaurantsData.json`,
+    restaurants
+  );
 }
+
+getRestaurantsData("Wolt");
 
 module.exports = { getRestaurantsData, getData };
