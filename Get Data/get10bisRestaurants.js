@@ -1,27 +1,31 @@
-var fs = require("fs");
-const { getRestaurantsData } = require("./getRestaurantsData");
-
 // get the restaurants from the data
-async function getRestaurants() {
-  const data = await getRestaurantsData("10bis");
+async function get10bisFormattedRestaurants(data) {
+  const formattedData = [];
 
-  const restaurantsList = [].concat.apply(
-    [],
-    data.map((item) => item.data.Data.restaurantsList)
-  );
+  data.forEach((cityData) => {
+    const city = cityData.city;
 
-  const myData = restaurantsList.map((item) => ({
-    track_id: `${item.restaurantId}`,
-    title: item.localizationNames.he || item.localizationNames.en,
-    filters: item.restaurantCuisineKeysList,
-    image: item.profileImageUrl,
-    address: item.restaurantAddress,
-    location: [item.longitude, item.latitude],
-    name: item.restaurantName,
-  }));
+    const restaurantsList = cityData.data.Data.restaurantsList;
 
-  let restaurants = JSON.stringify(myData);
-  fs.writeFileSync("../JSON Files/10bisRestaurantsData.json", restaurants);
+    formattedData.push(
+      ...restaurantsList.map((item) => ({
+        track_id: `${item.restaurantId}`,
+        filters: item.restaurantCuisineKeysList,
+        image: item.profileImageUrl,
+        address: item.restaurantAddress,
+        location: [item.longitude, item.latitude],
+        name:
+          item.restaurantName ||
+          item.localizationNames.he ||
+          item.localizationNames.en,
+        city,
+      }))
+    );
+  });
+
+  console.log(formattedData.length);
+
+  return formattedData;
 }
 
-getRestaurants();
+module.exports = { get10bisFormattedRestaurants };

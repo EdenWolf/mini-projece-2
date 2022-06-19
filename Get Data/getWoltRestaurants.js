@@ -10,13 +10,12 @@ async function getWoltFormattedRestaurants(data) {
     formattedData.push(
       ...sectionItems.map((item) => ({
         track_id: item.track_id,
-        title: item.title,
         filters: item.filtering.filters[0].values,
         image: item.image.url,
         address: item.venue.address,
         location: item.venue.location,
-        name: item.venue.name,
-        city: city,
+        name: item.venue.name || item.title,
+        city,
       }))
     );
   });

@@ -1,6 +1,7 @@
 const axios = require("axios").default;
 const fs = require("fs");
 const { getWoltFormattedRestaurants } = require("./getWoltRestaurants");
+const { get10bisFormattedRestaurants } = require("./get10bisRestaurants");
 
 // get data from url
 async function getData(url) {
