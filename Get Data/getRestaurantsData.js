@@ -45,8 +45,12 @@ async function getRestaurantsData(sourceName) {
     `../JSON Files/${sourceName}RestaurantsData.json`,
     restaurants
   );
+
+  console.log(`Number of ${sourceName} restaurants:`);
+  console.log(formattedData.length);
 }
 
 getRestaurantsData("Wolt");
+getRestaurantsData("10bis");
 
 module.exports = { getRestaurantsData, getData };

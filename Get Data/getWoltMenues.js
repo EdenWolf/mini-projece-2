@@ -1,5 +1,3 @@
-const axios = require("axios").default;
-var fs = require("fs");
 const { keyWordsFilter } = require("./keyWordsFilter");
 
 function getWoltRestaurantUrl(restaurant) {

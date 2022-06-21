@@ -6,7 +6,7 @@ function getRestaurantsData(sourceName) {
   const restaurantsFile = fs.readFileSync(
     `../JSON Files/${sourceName}RestaurantsData.json`
   );
-  let restaurantsData = JSON.parse(restaurantsFile);
+  const restaurantsData = JSON.parse(restaurantsFile);
 
   ///
   restaurantsData = [
@@ -39,7 +39,7 @@ async function getMenuesData(sourceName) {
     })
   );
 
-  let jsonData = JSON.stringify(data);
+  const jsonData = JSON.stringify(data);
   fs.writeFileSync(`../JSON Files/${sourceName}MenuesData.json`, jsonData);
 }
 

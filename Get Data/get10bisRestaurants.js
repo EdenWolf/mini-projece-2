@@ -23,8 +23,6 @@ async function get10bisFormattedRestaurants(data) {
     );
   });
 
-  console.log(formattedData.length);
-
   return formattedData;
 }
 
