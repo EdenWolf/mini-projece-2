@@ -11,7 +11,6 @@ const legalDuplicatesFile = fs.readFileSync("../JSON Files/legalPairs.json");
 const legalDuplicates = JSON.parse(legalDuplicatesFile);
 
 const duplicatesFile = fs.readFileSync("../JSON Files/duplicatesToRemove.json");
-
 const duplicatesData = JSON.parse(duplicatesFile);
 
 function findDuplicates() {
@@ -27,10 +26,13 @@ function findDuplicates() {
       },
     ];
     for (let j = 0; j < _10bisData.length; j++) {
+      const legalDuplicatesItem = Object.keys(legalDuplicates).find((key) =>
+        woltData[i].track_id.includes(key)
+      );
       if (
         woltData[i].location[0] === _10bisData[j].location[0] &&
         woltData[i].location[1] === _10bisData[j].location[1] &&
-        !legalDuplicates[woltData[i].track_id]?.includes(_10bisData[j].track_id)
+        !legalDuplicates[legalDuplicatesItem]?.includes(_10bisData[j].track_id)
       ) {
         const duplicateExist = duplicatesData.Wolt.filter(
           (item) =>
@@ -44,6 +46,7 @@ function findDuplicates() {
             track_id: _10bisData[j].track_id,
             location: _10bisData[j].location,
             name: _10bisData[j].name,
+            isTheSame: "",
           });
         }
       }
@@ -83,6 +86,21 @@ function findAndRemove10bisDuplicates() {
   fs.writeFileSync(`../JSON Files/10bisRestaurantsData.json`, jsonData);
 }
 
+function isInToRemove(toRemove, item) {
+  let i = 0;
+  while (toRemove.length > i) {
+    if (
+      item.track_id === toRemove[i].track_id &&
+      item.location[0] === toRemove[i].location[0] &&
+      item.location[1] === toRemove[i].location[1]
+    ) {
+      return true;
+    }
+    i++;
+  }
+  return false;
+}
+
 function removeDuplicates() {
   const toRemove = [];
 
@@ -106,19 +124,10 @@ function removeDuplicates() {
     }
   });
 
-  console.log("Number of duplicates ");
+  console.log("need to remove:");
+  console.log(toRemove.length);
 
-  let i = 0;
-
-  woltData = woltData.filter((item) => {
-    const result = !(
-      toRemove.length > i &&
-      item.location[0] === toRemove[i].location[0] &&
-      item.location[1] === toRemove[i].location[1]
-    );
-    if (!result) i++;
-    return result;
-  });
+  woltData = woltData.filter((item) => !isInToRemove(toRemove, item));
 
   console.log("Wolt restaurants:");
   console.log(woltData.length);
@@ -127,7 +136,64 @@ function removeDuplicates() {
   fs.writeFileSync(`../JSON Files/WoltRestaurantsData.json`, jsonData);
 }
 
+function handleCheckedDuplicates() {
+  const duplicatesToCheckFile = fs.readFileSync(
+    `../JSON Files/duplicates.json`
+  );
+  const duplicatesToCheck = JSON.parse(duplicatesToCheckFile);
+
+  let newLegalPairs = legalDuplicates;
+  let newDuplicatesToRemove = duplicatesData;
+
+  duplicatesToCheck.forEach((dupSet) => {
+    let i = 1;
+    while (i < dupSet.length) {
+      if (dupSet[i].isTheSame === "y" || dupSet[i].isTheSame === "Y") {
+        newDuplicatesToRemove.Wolt.push([
+          {
+            track_id: dupSet[0].track_id,
+            location: dupSet[0].location,
+            name: dupSet[0].name,
+          },
+          {
+            track_id: dupSet[i].track_id,
+            location: dupSet[i].location,
+            name: dupSet[i].name,
+          },
+        ]);
+      } else if (dupSet[i].isTheSame === "n" || dupSet[i].isTheSame === "N") {
+        const objectItemName = Object.keys(newLegalPairs).find((key) =>
+          dupSet[0].track_id.includes(key)
+        );
+        if (objectItemName) {
+          newLegalPairs[objectItemName].push(dupSet[i].track_id);
+        } else {
+          newLegalPairs = {
+            ...newLegalPairs,
+            [dupSet[0].track_id]: [dupSet[i].track_id],
+          };
+        }
+      }
+      i++;
+    }
+  });
+
+  // write changes to legalPairs.json
+  // write changes to duplicatesToRemova.json
+
+  // delete this
+  const newLegalPairsData = JSON.stringify(newLegalPairs);
+  fs.writeFileSync("../JSON Files/legalPairs.json", newLegalPairsData);
+  const newDuplicatesToRemoveData = JSON.stringify(newDuplicatesToRemove);
+  fs.writeFileSync(
+    "../JSON Files/duplicatesToRemove.json",
+    newDuplicatesToRemoveData
+  );
+}
+
 // findAndRemove10bisDuplicates();
 // findDuplicates();
-// removeDuplicates();
-// findDuplicates();
+
+handleCheckedDuplicates();
+removeDuplicates();
+findDuplicates();
