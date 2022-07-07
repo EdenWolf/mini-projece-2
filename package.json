@@ -1,0 +1,22 @@
+{
+  "name": "mini-projece-2",
+  "version": "1.0.0",
+  "description": "הנושא שאנחנו בחרנו למיני פרוייקט הוא איסוף מידע על מנות טבעוניות וצמחוניות ברחבי הארץ והצגת המידע שאספנו על גבי מפה או בעזרת חיפוש, מיון וסינון.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EdenWolf/mini-projece-2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EdenWolf/mini-projece-2/issues"
+  },
+  "homepage": "https://github.com/EdenWolf/mini-projece-2#readme",
+  "dependencies": {
+    "axios": "^0.27.2"
+  }
+}
