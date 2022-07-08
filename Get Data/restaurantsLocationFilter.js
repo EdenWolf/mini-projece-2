@@ -1,19 +1,16 @@
 const fs = require("fs");
-const { delay } = require("lodash");
-
-const woltFile = fs.readFileSync(`../JSON Files/WoltRestaurantsData.json`);
-let woltData = JSON.parse(woltFile);
-
-const _10bisFile = fs.readFileSync(`../JSON Files/10bisRestaurantsData.json`);
-const _10bisData = JSON.parse(_10bisFile);
-
-const legalDuplicatesFile = fs.readFileSync("../JSON Files/legalPairs.json");
-const legalDuplicates = JSON.parse(legalDuplicatesFile);
-
-const duplicatesFile = fs.readFileSync("../JSON Files/duplicatesToRemove.json");
-const duplicatesData = JSON.parse(duplicatesFile);
 
 function findDuplicates() {
+  const duplicatesFile = fs.readFileSync(
+    "../JSON Files/duplicatesToRemove.json"
+  );
+  const duplicatesData = JSON.parse(duplicatesFile);
+  const legalDuplicatesFile = fs.readFileSync("../JSON Files/legalPairs.json");
+  const legalDuplicates = JSON.parse(legalDuplicatesFile);
+  const _10bisFile = fs.readFileSync(`../JSON Files/10bisRestaurantsData.json`);
+  const _10bisData = JSON.parse(_10bisFile);
+  const woltFile = fs.readFileSync(`../JSON Files/WoltRestaurantsData.json`);
+  let woltData = JSON.parse(woltFile);
   const duplicates = [];
 
   // between wolt and 10bis
@@ -26,13 +23,10 @@ function findDuplicates() {
       },
     ];
     for (let j = 0; j < _10bisData.length; j++) {
-      const legalDuplicatesItem = Object.keys(legalDuplicates).find((key) =>
-        woltData[i].track_id.includes(key)
-      );
       if (
         woltData[i].location[0] === _10bisData[j].location[0] &&
         woltData[i].location[1] === _10bisData[j].location[1] &&
-        !legalDuplicates[legalDuplicatesItem]?.includes(_10bisData[j].track_id)
+        !legalDuplicates[woltData[i].track_id]?.includes(_10bisData[j].track_id)
       ) {
         const duplicateExist = duplicatesData.Wolt.filter(
           (item) =>
@@ -63,6 +57,8 @@ function findDuplicates() {
 }
 
 function findAndRemove10bisDuplicates() {
+  const _10bisFile = fs.readFileSync(`../JSON Files/10bisRestaurantsData.json`);
+  const _10bisData = JSON.parse(_10bisFile);
   console.log("10bis restaurants before deleting duplicates:");
   console.log(_10bisData.length);
 
@@ -102,6 +98,14 @@ function isInToRemove(toRemove, item) {
 }
 
 function removeDuplicates() {
+  const duplicatesFile = fs.readFileSync(
+    "../JSON Files/duplicatesToRemove.json"
+  );
+  const duplicatesData = JSON.parse(duplicatesFile);
+  const _10bisFile = fs.readFileSync(`../JSON Files/10bisRestaurantsData.json`);
+  const _10bisData = JSON.parse(_10bisFile);
+  const woltFile = fs.readFileSync(`../JSON Files/WoltRestaurantsData.json`);
+  let woltData = JSON.parse(woltFile);
   const toRemove = [];
 
   duplicatesData.Wolt.forEach((element) => {
@@ -137,6 +141,12 @@ function removeDuplicates() {
 }
 
 function handleCheckedDuplicates() {
+  const duplicatesFile = fs.readFileSync(
+    "../JSON Files/duplicatesToRemove.json"
+  );
+  const duplicatesData = JSON.parse(duplicatesFile);
+  const legalDuplicatesFile = fs.readFileSync("../JSON Files/legalPairs.json");
+  const legalDuplicates = JSON.parse(legalDuplicatesFile);
   const duplicatesToCheckFile = fs.readFileSync(
     `../JSON Files/duplicates.json`
   );
@@ -162,7 +172,7 @@ function handleCheckedDuplicates() {
           },
         ]);
       } else if (dupSet[i].isTheSame === "n" || dupSet[i].isTheSame === "N") {
-        const objectItemName = Object.keys(newLegalPairs).find((key) =>
+        const objectItemName = keysNames.find((key) =>
           dupSet[0].track_id.includes(key)
         );
         if (objectItemName) {
@@ -194,6 +204,13 @@ function handleCheckedDuplicates() {
 // findAndRemove10bisDuplicates();
 // findDuplicates();
 
-handleCheckedDuplicates();
-removeDuplicates();
-findDuplicates();
+// handleCheckedDuplicates();
+// removeDuplicates();
+// findDuplicates();
+
+module.exports = {
+  findAndRemove10bisDuplicates,
+  findDuplicates,
+  handleCheckedDuplicates,
+  removeDuplicates,
+};

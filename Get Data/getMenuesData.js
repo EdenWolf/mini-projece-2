@@ -6,7 +6,7 @@ function getRestaurantsData(sourceName) {
   const restaurantsFile = fs.readFileSync(
     `../JSON Files/${sourceName}RestaurantsData.json`
   );
-  const restaurantsData = JSON.parse(restaurantsFile);
+  let restaurantsData = JSON.parse(restaurantsFile);
 
   ///
   restaurantsData = [

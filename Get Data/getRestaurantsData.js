@@ -50,7 +50,4 @@ async function getRestaurantsData(sourceName) {
   console.log(formattedData.length);
 }
 
-getRestaurantsData("Wolt");
-getRestaurantsData("10bis");
-
 module.exports = { getRestaurantsData, getData };
