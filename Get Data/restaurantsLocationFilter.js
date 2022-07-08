@@ -1,16 +1,6 @@
 const fs = require("fs");
 
-function findDuplicates() {
-  const duplicatesFile = fs.readFileSync(
-    "../JSON Files/duplicatesToRemove.json"
-  );
-  const duplicatesData = JSON.parse(duplicatesFile);
-  const legalDuplicatesFile = fs.readFileSync("../JSON Files/legalPairs.json");
-  const legalDuplicates = JSON.parse(legalDuplicatesFile);
-  const _10bisFile = fs.readFileSync(`../JSON Files/10bisRestaurantsData.json`);
-  const _10bisData = JSON.parse(_10bisFile);
-  const woltFile = fs.readFileSync(`../JSON Files/WoltRestaurantsData.json`);
-  let woltData = JSON.parse(woltFile);
+function findDuplicates(duplicatesData, legalDuplicates, _10bisData, woltData) {
   const duplicates = [];
 
   // between wolt and 10bis
@@ -52,13 +42,12 @@ function findDuplicates() {
 
   console.log("Number of duplicates:");
   console.log(duplicates.length);
+  // Write all the duplicates we found
   const jsonData = JSON.stringify(duplicates);
   fs.writeFileSync(`../JSON Files/duplicates.json`, jsonData);
 }
 
-function findAndRemove10bisDuplicates() {
-  const _10bisFile = fs.readFileSync(`../JSON Files/10bisRestaurantsData.json`);
-  const _10bisData = JSON.parse(_10bisFile);
+function findAndRemove10bisDuplicates(_10bisData) {
   console.log("10bis restaurants before deleting duplicates:");
   console.log(_10bisData.length);
 
@@ -97,15 +86,7 @@ function isInToRemove(toRemove, item) {
   return false;
 }
 
-function removeDuplicates() {
-  const duplicatesFile = fs.readFileSync(
-    "../JSON Files/duplicatesToRemove.json"
-  );
-  const duplicatesData = JSON.parse(duplicatesFile);
-  const _10bisFile = fs.readFileSync(`../JSON Files/10bisRestaurantsData.json`);
-  const _10bisData = JSON.parse(_10bisFile);
-  const woltFile = fs.readFileSync(`../JSON Files/WoltRestaurantsData.json`);
-  let woltData = JSON.parse(woltFile);
+function removeDuplicates(duplicatesData, _10bisData, woltData) {
   const toRemove = [];
 
   duplicatesData.Wolt.forEach((element) => {
@@ -131,27 +112,20 @@ function removeDuplicates() {
   console.log("need to remove:");
   console.log(toRemove.length);
 
-  woltData = woltData.filter((item) => !isInToRemove(toRemove, item));
+  const woltNewData = woltData.filter((item) => !isInToRemove(toRemove, item));
 
   console.log("Wolt restaurants:");
-  console.log(woltData.length);
+  console.log(woltNewData.length);
 
-  const jsonData = JSON.stringify(woltData);
+  const jsonData = JSON.stringify(woltNewData);
   fs.writeFileSync(`../JSON Files/WoltRestaurantsData.json`, jsonData);
 }
 
-function handleCheckedDuplicates() {
-  const duplicatesFile = fs.readFileSync(
-    "../JSON Files/duplicatesToRemove.json"
-  );
-  const duplicatesData = JSON.parse(duplicatesFile);
-  const legalDuplicatesFile = fs.readFileSync("../JSON Files/legalPairs.json");
-  const legalDuplicates = JSON.parse(legalDuplicatesFile);
-  const duplicatesToCheckFile = fs.readFileSync(
-    `../JSON Files/duplicates.json`
-  );
-  const duplicatesToCheck = JSON.parse(duplicatesToCheckFile);
-
+function handleCheckedDuplicates(
+  duplicatesData,
+  legalDuplicates,
+  duplicatesToCheck
+) {
   let newLegalPairs = legalDuplicates;
   let newDuplicatesToRemove = duplicatesData;
 
@@ -159,6 +133,7 @@ function handleCheckedDuplicates() {
     let i = 1;
     while (i < dupSet.length) {
       if (dupSet[i].isTheSame === "y" || dupSet[i].isTheSame === "Y") {
+        // If the same
         newDuplicatesToRemove.Wolt.push([
           {
             track_id: dupSet[0].track_id,
@@ -172,11 +147,9 @@ function handleCheckedDuplicates() {
           },
         ]);
       } else if (dupSet[i].isTheSame === "n" || dupSet[i].isTheSame === "N") {
-        const objectItemName = keysNames.find((key) =>
-          dupSet[0].track_id.includes(key)
-        );
-        if (objectItemName) {
-          newLegalPairs[objectItemName].push(dupSet[i].track_id);
+        // If not the same - needs to go to legalPairs
+        if (newLegalPairs[dupSet[0].track_id]) {
+          newLegalPairs[dupSet[0].track_id].push(dupSet[i].track_id);
         } else {
           newLegalPairs = {
             ...newLegalPairs,
@@ -189,11 +162,9 @@ function handleCheckedDuplicates() {
   });
 
   // write changes to legalPairs.json
-  // write changes to duplicatesToRemova.json
-
-  // delete this
   const newLegalPairsData = JSON.stringify(newLegalPairs);
   fs.writeFileSync("../JSON Files/legalPairs.json", newLegalPairsData);
+  // write changes to duplicatesToRemova.json
   const newDuplicatesToRemoveData = JSON.stringify(newDuplicatesToRemove);
   fs.writeFileSync(
     "../JSON Files/duplicatesToRemove.json",
