@@ -12,7 +12,7 @@ function getWoltMenuItems(menuData) {
   return menuItems.map((item) => ({
     name: item.name,
     description: item.description,
-    vegan: keyWordsFilter(item, true),
+    vegan: keyWordsFilter(item.name, item.description, true),
     image: item.image,
   }));
 }

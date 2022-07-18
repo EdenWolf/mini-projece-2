@@ -5,6 +5,7 @@ const {
   handleCheckedDuplicates,
   removeDuplicates,
 } = require("./restaurantsLocationFilter");
+const { getMenuesData } = require("./getMenuesData");
 const fs = require("fs");
 // Read from files
 const duplicatesFile = fs.readFileSync("../JSON Files/duplicatesToRemove.json");
@@ -25,14 +26,14 @@ const duplicatesToCheck = JSON.parse(duplicatesToCheckFile);
 // 2 - Filter restaurants
 
 // 10bis duplicates
-findAndRemove10bisDuplicates(_10bisData);
-// Find duplicates between 10bis and wolt
-findDuplicates(duplicatesData, legalDuplicates, _10bisData, woltData);
-// Handle checked duplicates
-handleCheckedDuplicates(duplicatesData, legalDuplicates, duplicatesToCheck);
-// Remove duplicates from woltRestaurantsData
-removeDuplicates(duplicatesData, _10bisData, woltData);
-// // Find duplicates between 10bis and wolt - again to update the file
+// findAndRemove10bisDuplicates(_10bisData);
+// // Find duplicates between 10bis and wolt
 // findDuplicates(duplicatesData, legalDuplicates, _10bisData, woltData);
+// // Handle checked duplicates
+// handleCheckedDuplicates(duplicatesData, legalDuplicates, duplicatesToCheck);
+// // Remove duplicates from woltRestaurantsData
+// removeDuplicates(duplicatesData, _10bisData, woltData);
 
 // 3 - Get menues
+// getMenuesData("Wolt");
+getMenuesData("10bis");

@@ -1,6 +1,6 @@
 var fs = require("fs");
 
-function keyWordsFilter(menuItem, veganFilter) {
+function keyWordsFilter(menuItemName, menuItemDescription, veganFilter) {
   const filterKeyWordsFile = fs.readFileSync(
     "../JSON Files/filterKeyWords.json"
   );
@@ -11,15 +11,15 @@ function keyWordsFilter(menuItem, veganFilter) {
     : keyWordsData.allExceptions;
   for (let i = 0; i < keyWords.length; i++) {
     if (
-      menuItem.name.includes(keyWords[i]) ||
-      menuItem.description.includes(keyWords[i])
+      (menuItemName && menuItemName.includes(keyWords[i])) ||
+      (menuItemDescription && menuItemDescription.includes(keyWords[i]))
     ) {
       const exp = exceptions[keyWords[i]];
       let ignore = false;
       for (let j = 0; exp !== undefined && j < exp.length; j++) {
         if (
-          menuItem.name.includes(exp[j]) ||
-          menuItem.description.includes(exp[j])
+          menuItemName.includes(exp[j]) ||
+          menuItemDescription.includes(exp[j])
         ) {
           ignore = true;
         }

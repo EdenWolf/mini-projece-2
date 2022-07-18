@@ -1,6 +1,10 @@
 var fs = require("fs");
 const { getData } = require("./getRestaurantsData");
 const { getWoltRestaurantUrl, getWoltMenuItems } = require("./getWoltMenues");
+const {
+  get10bisRestaurantUrl,
+  get10bisMenuItems,
+} = require("./get10bisMenues");
 
 function getRestaurantsData(sourceName) {
   const restaurantsFile = fs.readFileSync(
@@ -22,6 +26,9 @@ function getRestaurantsData(sourceName) {
 async function getMenuesData(sourceName) {
   const restaurantsData = getRestaurantsData(sourceName);
 
+  console.log("number of restaurants:");
+  console.log(restaurantsData.length);
+
   const data = [];
 
   await Promise.all(
@@ -29,20 +36,22 @@ async function getMenuesData(sourceName) {
       const url = eval(`get${sourceName}RestaurantUrl(restaurant)`);
 
       const result = await getData(url);
-      const menuData = result.data;
+      // await delay(1000);
+      if (result) {
+        const menuData = result.data;
 
-      const formattedMenuItems = eval(`get${sourceName}MenuItems(menuData)`);
+        const formattedMenuItems = eval(`get${sourceName}MenuItems(menuData)`);
+        console.log(formattedMenuItems.length);
 
-      const resData = { ...restaurant, menu: formattedMenuItems };
+        const resData = { ...restaurant, menu: formattedMenuItems };
 
-      data.push(resData);
+        data.push(resData);
+      }
     })
   );
 
   const jsonData = JSON.stringify(data);
   fs.writeFileSync(`../JSON Files/${sourceName}MenuesData.json`, jsonData);
 }
-
-getMenuesData("Wolt");
 
 module.exports = { getMenuesData, getRestaurantsData };

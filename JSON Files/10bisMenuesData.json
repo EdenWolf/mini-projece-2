@@ -1,0 +1,1817 @@
+[
+    {
+        "track_id": "35764",
+        "filters": [
+            "coffeeHouse",
+            "salads",
+            "sandwichesWraps"
+        ],
+        "image": "https://tenbis-static.azureedge.net/restaurant-card-image/ResCard_35764_20220111170410.jpg",
+        "address": "שדרות גולדה מאיר, 100 דימונה",
+        "location": [
+            35.03147939999999,
+            31.0759743
+        ],
+        "name": "קפה גרג דימונה",
+        "city": "דימונה",
+        "menu": [
+            {
+                "name": "פיצה",
+                "description": "רוטב עגבניות קלאסי, גבינת מוצרלה ושתי תוספות לבחירה\r\n\r\n",
+                "vegan": false,
+                "image": "https://d25t2285lxl5rf.cloudfront.net/images/dishes/5eabc09e-a3bb-486d-8cb2-10692e902393.jpg"
+            },
+            {
+                "name": "סלט חלומי פטריות",
+                "description": "קוביות גבינת חלומי, אגוזי מלך ופטריות מוקפצים בטריאקי, שום ופטרוזיליה, על מצע חסות, כרוב, שרי צבעוני, גזר ומלפפון. מתובל בוויניגרט הדרים ותערובת גרעינים קלויים\r\n\r\n",
+                "vegan": true,
+                "image": "https://d25t2285lxl5rf.cloudfront.net/images/dishes/27f21c40-f45d-4e93-8746-cf2c07f38a69.jpg"
+            },
+            {
+                "name": "ביונד בורגר",
+                "description": "המבורגר ביונד מיט, חסה, עגבניה, בצל סגול ומלפפון חמוץ. בתוספת צ'יפס וטבעות בצל",
+                "vegan": true,
+                "image": "https://d25t2285lxl5rf.cloudfront.net/images/dishes/41bfb055-cad6-49af-a6c4-97bafebd0a65.jpg"
+            },
+            {
+                "name": "סלמון בלימון",
+                "description": "פילה סלמון צרוב במחבת ברוטב לימון ועשבי תיבול. מוגש בתוספת ברוקולי ירוקים וסלט אישי",
+                "vegan": true,
+                "image": "https://d25t2285lxl5rf.cloudfront.net/images/dishes/41676915-ea81-49d9-9161-61a010d6fc2a.jpg"
+            },
+            {
+                "name": "סלט טוסט",
+                "description": "קוביות טוסט עם גבינה צהובה מוקפצות בחמאת שום על מצע חסות, כרוב , שרי צבעוני, גזר ומלפפון. מתובל בוויניגרט הדרים, שומשום ובולגרית מגורדת (מוגש ללא לחם)",
+                "vegan": false,
+                "image": "https://d25t2285lxl5rf.cloudfront.net/images/dishes/33ba903f-f003-41fe-96fe-09d765b521d2.jpg"
+            },
+            {
+                "name": "רביולי גבינות",
+                "description": "רביולי ממולא בריקוטה ופרמז׳ן, ברוטב שמנת פטריות",
+                "vegan": true,
+                "image": "https://d25t2285lxl5rf.cloudfront.net/images/dishes/e2f9ff7b-71ad-4c8a-af36-83ecdbdd87dd.jpg"
+            },
+            {
+                "name": "פנקייק קלאסי",
+                "description": "רוטב מייפל וקצפת",
+                "vegan": true,
+                "image": ""
+            },
+            {
+                "name": "פנקייק פירות ושוקולד לבן",
+                "description": "רוטב מייפל, שוקולד לבן, פירות טריים, קוקוס קלוי וקצפת",
+                "vegan": false,
+                "image": ""
+            },
+            {
+                "name": "פנקייק שוקולד עוגיות",
+                "description": "שוקולד לוז, שוקולד לבן, שברי שוקולד ועוגיות, קצפת",
+                "vegan": false,
+                "image": ""
+            },
+            {
+                "name": "פנקייק דולצ'ה",
+                "description": "מייפל, ריבת חלב, אגוזים טחונים, קוקוס קלוי וקצפת",
+                "vegan": false,
+                "image": ""
+            },
+            {
+                "name": "פנקייק פרלינה",
+                "description": "קרם נוגט, עוגיות מפוררות, אגוזי לוז וקצפת",
+                "vegan": true,
+                "image": ""
+            },
+            {
+                "name": "פנקייק חמאת בוטנים",
+                "description": "חמאת בוטנים, שוקולד לוז, שברי בוטנים וקצפת",
+                "vegan": false,
+                "image": ""
+            },
+            {
+                "name": "פנקייק שחיתות",
+                "description": "שוקולד לוז, שוקולד לבן, ריבת חלב, מייפל, עוגיות מפוררות, אגוזים טחונים, סוכריות צבעוניות, מרשמלו וקצפת",
+                "vegan": false,
+                "image": ""
+            },
+            {
+                "name": "שקשוקה של בית",
+                "description": "תבשיל מסורתי, מוגש במחבת לוהטת עם שתי ביצים לצד חלה אישית\r\n\r\n",
+                "vegan": false,
+                "image": "https://d25t2285lxl5rf.cloudfront.net/images/dishes/c1e30278-365f-4fbc-9988-5d11b6c7eeb2.jpg"
+            },
+            {
+                "name": "שקשוקה בלקנית",
+                "description": "בולגרית מגורדת, פסטו וחציל",
+                "vegan": true,
+                "image": "https://d25t2285lxl5rf.cloudfront.net/images/dishes/93b2436d-04aa-4068-857f-47ae2ce02430.jpg"
+            },
+            {
+                "name": "שקשוקה פלאפל",
+                "description": "כדורי פלאפל, טחינה גולמית ופטרוזיליה",
+                "vegan": true,
+                "image": "https://d25t2285lxl5rf.cloudfront.net/images/dishes/97391221-aca9-4a80-be06-3299100adef9.jpg"
+            },
+            {
+                "name": "שקשוקה ביאנקה לבנה",
+                "description": "רוטב אלפרדו פטריות, תרד ומוצרלה",
+                "vegan": false,
+                "image": "https://d25t2285lxl5rf.cloudfront.net/images/dishes/8ee7c02c-e737-4fa7-ab14-95941f5d48e2.jpg"
+            },
+            {
+                "name": "שקשוקה מוצרלה",
+                "description": "פסטו, ומוצרלה טרייה",
+                "vegan": false,
+                "image": "https://d25t2285lxl5rf.cloudfront.net/images/dishes/8e81a6ed-a54b-41ee-abc1-6b9c7e51cd8b.jpg"
+            },
+            {
+                "name": "רול אומלט ספרדי",
+                "description": "חביתה פיקנטית עם תפו\"א, בצל ירוק, פטרוזיליה, פלפל, במעטפת טורטיה ממולאת באבוקדו ובולגרית. מוגש לצד עגבניות מרוסקות וסלט אישי ",
+                "vegan": false,
+                "image": "https://d25t2285lxl5rf.cloudfront.net/images/dishes/c76d73fa-4b8a-489c-828d-72015b00f649.jpg"
+            },
+            {
+                "name": "מרק היום",
+                "description": "מרק יומי משתנה, מוגש לצד פוקצ׳ינה",
+                "vegan": true,
+                "image": "https://d25t2285lxl5rf.cloudfront.net/images/dishes/6d904592-6f65-4796-93f5-e56469a131f8.jpg"
+            },
+            {
+                "name": "ארנצ׳יני",
+                "description": "אורז ריזוטו וגבינות בציפוי פריך, מונחים על רוטב רוזה, בצל ירוק ופרמז'ן\n\n",
+                "vegan": false,
+                "image": "https://d25t2285lxl5rf.cloudfront.net/images/dishes/a01f01b1-c3f0-4534-b88f-521d6e8dfc7e.jpg"
+            },
+            {
+                "name": "אצבעות מוצרלה",
+                "description": "אצבעות מוצרלה בציפוי פריך, לצד רוטב עגבניות איטלקי ורוטב קיסר\r\n\r\n",
+                "vegan": false,
+                "image": "https://d25t2285lxl5rf.cloudfront.net/images/dishes/0963b17a-15cd-4bd2-8b9b-bce6ad61cb58.jpg"
+            },
+            {
+                "name": "לביבות ברקולי",
+                "description": "רוטב קיסר, עגבניות מרוסקות, לאבנה\nעשבי תיבול וסלטון תרד, צנונית וסומק",
+                "vegan": true,
+                "image": "https://d25t2285lxl5rf.cloudfront.net/images/dishes/8f24ef78-1cb3-4182-ba3b-bbb7f799bb54.jpg"
+            },
+            {
+                "name": "פרחי כרובית",
+                "description": "פרחי כרובית בציפוי פריך, לצד סלטון תרד ופרמז׳ן, רוטב קיסר, פלח לימון וצ׳ילי מתוק\r\n\r\n",
+                "vegan": true,
+                "image": "https://d25t2285lxl5rf.cloudfront.net/images/dishes/cc221bf6-7eb6-4363-8ccf-6e4df7717aaf.jpg"
+            },
+            {
+                "name": "פסטייה גבינות",
+                "description": "רולים מטוגנים ממולאים במוצרלה, צהובה, בולגרית, בצל מטוגן, פטריות, פטרוזיליה וחמוציות, בתיבול קינמון עדין. מוגשים בעיטור טחינה גולמית, סילאן ושומשום\r\n\r\n",
+                "vegan": false,
+                "image": "https://d25t2285lxl5rf.cloudfront.net/images/dishes/f402feae-2aa7-4163-9c20-e99b751d45ca.jpg"
+            },
+            {
+                "name": "קרעי מוצרלה ועגבניות",
+                "description": "עגבניות שרי, מוצרלה טרייה, זיתי קלמטה, ארטישוק ושום קונפי, בצל סגול, בצל ירוק, פטרוזיליה ושמן בזיליקום ולחם אישי בצד ",
+                "vegan": false,
+                "image": "https://d25t2285lxl5rf.cloudfront.net/images/dishes/a9389030-a18c-43e6-a5d5-5cf116c44a3d.jpg"
+            },
+            {
+                "name": "חציל לאבנה",
+                "description": "חציל שלם שרוף, לאבנה עשבי תיבול,\nסלסה עגבניות, פלפל חריף, צנונית ובצל\nסגול. מוגש עם פוקאצ׳ינה",
+                "vegan": true,
+                "image": "https://d25t2285lxl5rf.cloudfront.net/images/dishes/b8cd2ed7-efce-4052-9d49-528e5a037c35.jpg"
+            },
+            {
+                "name": "בטטה מדורה",
+                "description": "‏בטטה צלויה על מלח עם חמאת שום, שמנת חמוצה, שמן זית ובצל ירוק",
+                "vegan": true,
+                "image": ""
+            },
+            {
+                "name": "פנה פיצה",
+                "description": "פסטה פנה ברוטב רוזה, מוקרמת במוצרלה ואורגנו\r\n\r\n",
+                "vegan": false,
+                "image": "https://d25t2285lxl5rf.cloudfront.net/images/dishes/474a417c-75c2-4260-8f5a-1e17f930c30a.jpg"
+            },
+            {
+                "name": "ניוקי פטריות",
+                "description": "ניוקי תפו\"א, שמנת, פטריות, שום קונפי, חמאת עשבים, תרד ופרמז'ן\n\n",
+                "vegan": false,
+                "image": "https://d25t2285lxl5rf.cloudfront.net/images/dishes/a21a31b0-2e58-47f1-b518-d88b7d7a996b.jpg"
+            },
+            {
+                "name": "חונקי כמרים אליו אוליו",
+                "description": "חונקי כמרים, ארטישוק קונפי ,עגבניות שרי, זיתי קלמטה, פטרוזיליה, שום קונפי וגבינת פטה",
+                "vegan": true,
+                "image": "https://d25t2285lxl5rf.cloudfront.net/images/dishes/549273c0-f67b-48d5-b42f-d910ec09e9eb.jpg"
+            },
+            {
+                "name": "רביולי בטטה",
+                "description": "רביולי ממולא קרם בטטה ברוטב רוזה",
+                "vegan": true,
+                "image": "https://d25t2285lxl5rf.cloudfront.net/images/dishes/c2095200-667c-4846-af04-a7d466021e27.jpg"
+            },
+            {
+                "name": "פסטה בלקנית",
+                "description": "‏פנה, רוטב מרינרה, קוביות עגבנייה, בצל קצוץ, חציל, שום, פטרוזיליה ובולגרית מגוררת",
+                "vegan": true,
+                "image": "https://d25t2285lxl5rf.cloudfront.net/images/dishes/b531ce7d-c450-4dcb-a2a7-81926869548e.jpg"
+            },
+            {
+                "name": "רביולי גבינות",
+                "description": "רביולי ממולא בריקוטה ופרמז׳ן, ברוטב שמנת פטריות",
+                "vegan": true,
+                "image": "https://d25t2285lxl5rf.cloudfront.net/images/dishes/e2f9ff7b-71ad-4c8a-af36-83ecdbdd87dd.jpg"
+            },
+            {
+                "name": "פפרדלה די קאפרי (לנוהגי היתר)",
+                "description": "פפרדלה, נתחי טונה, זיתי קלמטה, שום, צ'ילי ירוק, פטרוזליה,\nרוטב מרינרה ופרמז'ן",
+                "vegan": false,
+                "image": "https://d25t2285lxl5rf.cloudfront.net/images/dishes/5e3d3b26-977e-43f9-a484-f1084104cf4f.jpg"
+            },
+            {
+                "name": "לזנייה גבינות",
+                "description": "שכבות פסטה, רוטב עגבניות ובשמל עם מוצרלה ופרמז׳ן\r\n\r\n",
+                "vegan": false,
+                "image": "https://d25t2285lxl5rf.cloudfront.net/images/dishes/952053a2-0f5a-409d-b500-1f1244dbfcf0.jpg"
+            },
+            {
+                "name": "פפרדלה דניס",
+                "description": "פילה דניס מונח על פסטה רחבה, עגבניות שרי צלויות, פלפל חריף, כוסברה, רוטב קארי אדום ובצל ירוק\r\n\r\n",
+                "vegan": true,
+                "image": "https://d25t2285lxl5rf.cloudfront.net/images/dishes/5272ee80-f80f-4a30-9112-cd193348d1ea.jpg"
+            },
+            {
+                "name": "פיצה",
+                "description": "רוטב עגבניות קלאסי, גבינת מוצרלה ושתי תוספות לבחירה\r\n\r\n",
+                "vegan": false,
+                "image": "https://d25t2285lxl5rf.cloudfront.net/images/dishes/5eabc09e-a3bb-486d-8cb2-10692e902393.jpg"
+            },
+            {
+                "name": "סלט יאיר",
+                "description": "‫מלפפון, עגבנייה, בצל, חסה ופטרוזיליה, קצוצים ומתובלים בשמן זית, לימון, טחינה גולמית וביצה קשה. לצד זיתי קלמטה וטחינה",
+                "vegan": false,
+                "image": "https://d25t2285lxl5rf.cloudfront.net/images/dishes/7df1fe31-e3c4-401d-aaa5-6e58ac7ea918.jpg"
+            },
+            {
+                "name": "סלט קיסר (לנוהגי היתר)",
+                "description": "עלי חסה , עגבניות שרי, קרוטונים, צנונית, ארטישוק קונפי,\r\nלנוהגי פרמז׳ן ורוטב קיסר",
+                "vegan": true,
+                "image": "https://d25t2285lxl5rf.cloudfront.net/images/dishes/a826deb9-04a5-4c54-8e44-ccaa67347891.jpg"
+            },
+            {
+                "name": "סלט שוק",
+                "description": "מבחר ירקות בחיתוך גס: מלפפון, פלחי עגבנייה, זוקיני, בצל סגול,\nזיתי קלמטה, פלפלים, צנונית, בצל ירוק פרוסת גבינת פטה, בתיבול\nשמן זית לימון ואורגנו",
+                "vegan": true,
+                "image": "https://d25t2285lxl5rf.cloudfront.net/images/dishes/ca6125a2-0a79-4d4d-be7e-6a90b04abbcb.jpg"
+            },
+            {
+                "name": "סלט קישואים ולאבנה",
+                "description": "‏קוביות זוקיני מטוגנות, מקלות זוקיני קריספיים, בצל סגול, בייבי תרד, שום ועשבי תיבול, שקדים וגבינת פטה מגוררת על מצע לאבנה",
+                "vegan": true,
+                "image": "https://d25t2285lxl5rf.cloudfront.net/images/dishes/c9718a74-fedf-4593-a4b6-7c929ba307da.jpg"
+            },
+            {
+                "name": "סלט כרובית ועגבניות",
+                "description": "כרובית בציפוי פריך, טחינה, בצל מטוגן, עגבנייה, כוסברה, שום\r\nפטרוזיליה, שקדים וסומק",
+                "vegan": true,
+                "image": "https://d25t2285lxl5rf.cloudfront.net/images/dishes/5c06d71d-9421-4b0a-a435-741ed008d5fd.jpg"
+            },
+            {
+                "name": "סלט טונה",
+                "description": "טונה, ביצה קשה, תירס, גוואקמולי, מלפפון חמוץ, תפוח אדמה מתובלים וזיתי קלמטה, מונחים על חסה, עגבנייה, מלפפון, פטרוזיליה ובצל מתובלים בשמן זית ולימון\r\n\r\n",
+                "vegan": false,
+                "image": "https://d25t2285lxl5rf.cloudfront.net/images/dishes/627f8608-d25c-42b6-92f7-e700112bf8bc.jpg"
+            },
+            {
+                "name": "סלט סביח מחוזק",
+                "description": "ביצה קשה, מסבחה של גרגרי חומוס חמים, חציל וקוביות תפו״א מוקפצים בפטרוזיליה ושום. מונחים על מלפפון, עגבנייה, בצל ופטרוזיליה קצוצים ומתובלים בשמן זית ולימון. מחוזק עם כדורי פלאפל וטחינה מעל\r\n\r\n",
+                "vegan": false,
+                "image": "https://d25t2285lxl5rf.cloudfront.net/images/dishes/d92e8beb-dcb3-4725-a21b-eb2848a857a9.jpg"
+            },
+            {
+                "name": "סלט בטטה",
+                "description": "קוביות בטטה אפויות, גבינה בולגרית מגורדת וצ׳יפס בטטה, על מצע חסות, כרוב, שרי צבעוני, גזר ומלפפון. מתובל בוויניגרט הדרים ותערובת גרעינים קלויים\r\n\r\n",
+                "vegan": false,
+                "image": "https://d25t2285lxl5rf.cloudfront.net/images/dishes/7e3b58f0-1c85-4e9f-b3bf-8a6fb6faa4d4.jpg"
+            },
+            {
+                "name": "סלט הום פרייז",
+                "description": "קוביות תפו״א מטוגנות בצ׳ילי מתוק, תערובת נשנושים, שום\r\nופטרוזיליה, על מצע חסות, כרוב, עגבניות שרי, גזר ומלפפון.\r\nמתובל בוויניגרט הדרים ושומשום ",
+                "vegan": true,
+                "image": "https://d25t2285lxl5rf.cloudfront.net/images/dishes/43bd6600-c573-4306-adb9-d3ab653a798a.jpg"
+            },
+            {
+                "name": "סלט טוסט",
+                "description": "קוביות טוסט עם גבינה צהובה מוקפצות בחמאת שום על מצע חסות, כרוב , שרי צבעוני, גזר ומלפפון. מתובל בוויניגרט הדרים, שומשום ובולגרית מגורדת (מוגש ללא לחם)",
+                "vegan": false,
+                "image": "https://d25t2285lxl5rf.cloudfront.net/images/dishes/33ba903f-f003-41fe-96fe-09d765b521d2.jpg"
+            },
+            {
+                "name": "סלט בורגול עדשים",
+                "description": "בורגול, עדשים שחורות, קוביות בטטה אפויות, תערובת נשנושים, חמוציות, מלפפון, עגבנייה, בצל, פלפל ופטרוזיליה. מתובל בסילאן, שמן זית, לימון ובולגרית מגורדת\r\n\r\n",
+                "vegan": true,
+                "image": "https://d25t2285lxl5rf.cloudfront.net/images/dishes/c8fe1ea5-7e59-4182-937b-e48d7f151aa8.jpg"
+            },
+            {
+                "name": "סלט חלומי פטריות",
+                "description": "קוביות גבינת חלומי, אגוזי מלך ופטריות מוקפצים בטריאקי, שום ופטרוזיליה, על מצע חסות, כרוב, שרי צבעוני, גזר ומלפפון. מתובל בוויניגרט הדרים ותערובת גרעינים קלויים\r\n\r\n",
+                "vegan": true,
+                "image": "https://d25t2285lxl5rf.cloudfront.net/images/dishes/27f21c40-f45d-4e93-8746-cf2c07f38a69.jpg"
+            },
+            {
+                "name": "סלט שנגחאי",
+                "description": "מלפפון, כרוב סגול ולבן, גזר, קישוא, אטריות שעועית, בצל ירוק,\r\nכוסברה, צילי ירוק, שומשום, קצח ובוטנים בויניגרט אסייתי מקפיץ",
+                "vegan": true,
+                "image": ""
+            },
+            {
+                "name": "כריך חביתה",
+                "description": "גבינת שמנת, חביתה, עגבנייה, מלפפון חמוץ וחסה ",
+                "vegan": false,
+                "image": "https://d25t2285lxl5rf.cloudfront.net/images/dishes/b019c86f-4923-4f19-8774-31f9ea2b84b1.jpg"
+            },
+            {
+                "name": "כריך טונה",
+                "description": "טונה, ביצה קשה, אריסה, טחינה, לימון כבוש, זיתי קלמטה ועגבנייה",
+                "vegan": false,
+                "image": "https://d25t2285lxl5rf.cloudfront.net/images/dishes/a0953836-75d6-45ce-8aee-61e93b14e8d6.jpg"
+            },
+            {
+                "name": "טוסט גרג",
+                "description": "בייגל, חמאת שום, גבינה צהובה, עגבנייה, בצל וביצה קשה ",
+                "vegan": false,
+                "image": "https://d25t2285lxl5rf.cloudfront.net/images/dishes/58cc6fb2-ca78-48c9-8875-5346468821a7.jpg"
+            },
+            {
+                "name": "טורטייה מוצרלה",
+                "description": "מוצרלה טרייה, גבינת שמנת, פלפל קלוי, ממרח שקדים, פסטו ותרד טרי ",
+                "vegan": false,
+                "image": "https://d25t2285lxl5rf.cloudfront.net/images/dishes/20e05915-698b-4fb2-8a32-a41960eb76f3.jpg"
+            },
+            {
+                "name": "טוסט גבינות יווני",
+                "description": "בייגל, גבינת שמנת, גבינה צהובה, גבינה בולגרית וזיתי קלמטה ",
+                "vegan": false,
+                "image": "https://d25t2285lxl5rf.cloudfront.net/images/dishes/bc0f7502-11f1-4a55-bf2d-e70986582a62.jpg"
+            },
+            {
+                "name": "טורטיה סביח מחוזק",
+                "description": "טורטיה במילוי כדורי פלאפל, חציל, ביצה קשה, תפו\"א, עגבניה, טחינה, סחוג ירוק, כמון, פטרוזיליה וירקות חתוכים גס לצד טחינת עמבה\n\n",
+                "vegan": false,
+                "image": "https://d25t2285lxl5rf.cloudfront.net/images/dishes/95db0ac8-60b6-4f32-8765-cc242d532fad.jpg"
+            },
+            {
+                "name": "שווארמה גלילית טבעונית",
+                "description": "טורטייה במילוי שווארמה טבעונית, מוקפצת עם בצל, עגבנייה, מלפפון חמוץ, רוטב קארי,\nטחינה, סחוג ירוק, לימון כבוש וירקות חתוכים גס לצד טחינת עמבה",
+                "vegan": true,
+                "image": "https://d25t2285lxl5rf.cloudfront.net/images/dishes/a2baf6e4-d525-4d37-80f0-ed012f66cf88.jpg"
+            },
+            {
+                "name": "כריך בלקני",
+                "description": "פסטו, בולגרית, גבינת שמנת, פלפל וחציל קלוי. מוגש חם",
+                "vegan": true,
+                "image": "https://d25t2285lxl5rf.cloudfront.net/images/dishes/7adae564-90f0-45ed-9b6c-396dd3662f02.jpg"
+            },
+            {
+                "name": "כריך סלמון מעושן (לנוהגי היתר)",
+                "description": "סלמון מעושן, גבינת שמנת, ביצה קשה, עגבנייה, בצל ירוק וחסה ",
+                "vegan": false,
+                "image": "https://d25t2285lxl5rf.cloudfront.net/images/dishes/f43a8fab-5fac-4d9d-98a3-e66baa9f9425.jpg"
+            },
+            {
+                "name": "טוסט אמריקאי",
+                "description": "בייגל פתוח, פסטו וגבינת שמנת. מוקרם במוצרלה",
+                "vegan": false,
+                "image": ""
+            },
+            {
+                "name": "פלאפל",
+                "description": "פלאפל במילוי טחינה, מוגש עם חומוס מסבאחה, סלט קצוץ, טחינה, חמוצים, וסחוג ירוק. מוגש לצד טורטייה",
+                "vegan": true,
+                "image": "https://d25t2285lxl5rf.cloudfront.net/images/dishes/c8473d6a-d2be-486f-8785-3bf8358da6fb.jpg"
+            },
+            {
+                "name": "תפוח אדמה מוקרם",
+                "description": "קוביות תפו״א ברוטב שמנת פטריות מוקרמות בתנור אבן. מוגש לצד סלט אישי\r\n\r\n",
+                "vegan": true,
+                "image": "https://d25t2285lxl5rf.cloudfront.net/images/dishes/22d68eee-f7d7-4c4b-876c-54fa12567a0f.jpg"
+            },
+            {
+                "name": "‫מוקפץ ירקות",
+                "description": "אטריות נודלס מוקפצות עם בצל, פלפל, זוקיני, כרוב, פטריות, שעועית ירוקה, גזר, אפונה, ברוקולי ובצל ירוק, ברוטב טריאקי. מוגש עם כוסברה ובוטנים גרוסים מעל\r\n\r\n",
+                "vegan": true,
+                "image": "https://d25t2285lxl5rf.cloudfront.net/images/dishes/941998fc-1505-43bd-bf37-7fdc94e10639.jpg"
+            },
+            {
+                "name": "שניצל פיש & פוטטוס",
+                "description": "פילה הייק טבעי בציפוי פריך, מוגש על תפוח אדמה ביתי בעשבי תיבול, איולי קיסר ואלף האיים. מוגש לצד סלט אישי",
+                "vegan": true,
+                "image": "https://d25t2285lxl5rf.cloudfront.net/images/dishes/2c0fb8da-02d9-4215-bedc-b083dfd008b9.jpg"
+            },
+            {
+                "name": "ביונד בורגר",
+                "description": "המבורגר ביונד מיט, חסה, עגבניה, בצל סגול ומלפפון חמוץ. בתוספת צ'יפס וטבעות בצל",
+                "vegan": true,
+                "image": "https://d25t2285lxl5rf.cloudfront.net/images/dishes/41bfb055-cad6-49af-a6c4-97bafebd0a65.jpg"
+            },
+            {
+                "name": "פאד תאי סלמון",
+                "description": "אטריות אורז רחבות וקוביות סלמון מוקפצות עם בצל, פלפל, זוקיני, כרוב, פטריות, גזר, ברוקולי, שעועית ירוקה, אפונה, בצל ירוק ברוטב פאד תאי פיקנטי. מוגש עם רבע לימון, כוסברה ושומשום",
+                "vegan": true,
+                "image": "https://d25t2285lxl5rf.cloudfront.net/images/dishes/7b1cbaa8-5f6b-414b-b422-9eb3cabc5bc3.jpg"
+            },
+            {
+                "name": "סלמון בלימון",
+                "description": "פילה סלמון צרוב במחבת ברוטב לימון ועשבי תיבול. מוגש בתוספת ברוקולי ירוקים וסלט אישי",
+                "vegan": true,
+                "image": "https://d25t2285lxl5rf.cloudfront.net/images/dishes/41676915-ea81-49d9-9161-61a010d6fc2a.jpg"
+            },
+            {
+                "name": "ספגטי סלמון (לנוהגי היתר)",
+                "description": "ספגטי, פילה סלמון, שמנת, בצל ירוק, פטרוזיליה וגרידת לימון",
+                "vegan": true,
+                "image": "https://d25t2285lxl5rf.cloudfront.net/images/dishes/401ea019-7f87-4a18-9515-404ec2d593f8.jpg"
+            },
+            {
+                "name": "פילה דניס",
+                "description": "פילה דניס צרוב במחבת עם שום ופטרוזיליה, מונח על אורז ירוקים ושקדים. לצד ברוקולי, שעועית ואפונה מאודים\n\n",
+                "vegan": true,
+                "image": "https://d25t2285lxl5rf.cloudfront.net/images/dishes/1a8bbd13-2d5e-4603-8d18-412d184609de.jpg"
+            },
+            {
+                "name": "צ'זה פטריות",
+                "description": "פטריות, בצל ירוק, בצל סגול, קוביות חציל, כרוב, גזר, עלי כוסברה, מוקפצים ברוטב צ'זה. מוגש עם אורז",
+                "vegan": true,
+                "image": ""
+            },
+            {
+                "name": "פאד קפאו (צמחוני)",
+                "description": "טחון צמחוני קצוץ, בצל, שום ועשבי תיבול, מוקפצים ברוטב אסיאתי. מוגש לצד אורז וביצת עין",
+                "vegan": true,
+                "image": ""
+            },
+            {
+                "name": "קארי סלמון",
+                "description": "פילה סלמון צרוב במחבת, אורז, ירקות מוקפצים ברוטב קארי צהוב (אפונה, שעועית ובצל סגול)",
+                "vegan": true,
+                "image": ""
+            },
+            {
+                "name": "קוקי-גלידה",
+                "description": "שתי עוגיות שוקולד צ'יפס נימוחות, גלידת שמנת, רוטב שוקולד לבן, שערות חלווה ופיסטוק",
+                "vegan": false,
+                "image": "https://d25t2285lxl5rf.cloudfront.net/images/dishes/2f13eb4f-ef5d-404a-9cdd-46c3d954641d.jpg"
+            },
+            {
+                "name": "קרם ברולה",
+                "description": "קרם וניל צרפתי וסוכר שרוף\r\n\r\n",
+                "vegan": true,
+                "image": "https://d25t2285lxl5rf.cloudfront.net/images/dishes/0d6c5eb8-5973-49f0-a825-73936cef3ff5.jpg"
+            },
+            {
+                "name": "פאדג' ברוטב קרמל מלוח",
+                "description": "סופלה שוקולד חם, רוטב קרמל מלוח. מוגש עם כדור גלידה וקצפת\n\n",
+                "vegan": false,
+                "image": "https://d25t2285lxl5rf.cloudfront.net/images/dishes/84f949c0-3b45-470f-8c2b-a1ce2aca1089.jpg"
+            },
+            {
+                "name": "סניקרס",
+                "description": "ביסקוויט שוקולד, קרם טופי, בוטנים מלוחים, מוס שוקולד בציפוי שוקולד, רוטב קרמל מלוח וקצפת\r\n\r\n",
+                "vegan": false,
+                "image": "https://d25t2285lxl5rf.cloudfront.net/images/dishes/042102b3-6d81-4491-b314-e44a903efa3e.jpg"
+            },
+            {
+                "name": "פאי תפוחים",
+                "description": "מוגש עם כדור גלידה וקצפת",
+                "vegan": true,
+                "image": "https://d25t2285lxl5rf.cloudfront.net/images/dishes/4f6e9a0f-9daf-47d7-9c8b-594cc58d51f9.jpg"
+            },
+            {
+                "name": "פאי פיצוחים",
+                "description": "מוגש עם כדור גלידה וקצפת",
+                "vegan": true,
+                "image": "https://d25t2285lxl5rf.cloudfront.net/images/dishes/e84b4069-ce7c-4890-aedc-7691506b3ec4.jpg"
+            },
+            {
+                "name": "עוגה בלגית חמה",
+                "description": "עוגת שוקולד בלגית חמה מוגשת לצד כדור גלידה לבחירה וקצפת\r\n\r\n",
+                "vegan": false,
+                "image": "https://d25t2285lxl5rf.cloudfront.net/images/dishes/2e4e42f8-a5dd-44c7-bb4f-e83c8100073d.jpg"
+            },
+            {
+                "name": "וופל בלגי",
+                "description": "רטבים לבחירה: שוקולד אגוזים, ריבת חלב, שוקולד לבן ומייפל. מוגש עם קצפת וגלידה",
+                "vegan": false,
+                "image": "https://d25t2285lxl5rf.cloudfront.net/images/dishes/7d592b72-9064-4b84-bd35-4054a6ea532a.jpg"
+            },
+            {
+                "name": "אלפחורס",
+                "description": "עוגיית ריבת חלב דרום אמריקאית",
+                "vegan": false,
+                "image": "https://d25t2285lxl5rf.cloudfront.net/images/dishes/4605a295-f607-420c-84b9-59c66352aff1.jpg"
+            },
+            {
+                "name": "צלחת עוגיות",
+                "description": "5 יח'",
+                "vegan": true,
+                "image": "https://d25t2285lxl5rf.cloudfront.net/images/dishes/198f03b5-1316-4c53-972a-9c239cbd1c96.jpg"
+            },
+            {
+                "name": "מקרונים",
+                "description": "4 יח'",
+                "vegan": true,
+                "image": "https://d25t2285lxl5rf.cloudfront.net/images/dishes/3f803102-28f0-4bff-9f6d-3a38fcef45cd.jpg"
+            },
+            {
+                "name": "בראוניז",
+                "description": "מאפה עשיר בשוקולד עם אגוזי מלך. מוגש חם בליווי קצפת ",
+                "vegan": false,
+                "image": "https://d25t2285lxl5rf.cloudfront.net/images/dishes/16335675-8a9a-4f4f-8135-4e1faac2d012.jpg"
+            },
+            {
+                "name": "קרמבל שוקולד חם",
+                "description": "שני כדורי גלידה לבחירה על שברי עוגיות שוקולד צ׳יפס,\nבננה, שקד קלוי ושוקולד חם מעל",
+                "vegan": false,
+                "image": ""
+            },
+            {
+                "name": "דולצ'ה די לצ'ה",
+                "description": "עוגת ריבת חלב, תחתית שקדים, קרם וניל, קרם ריבת חלב,\r\nרוטב קרמל מלוח וקצפת",
+                "vegan": false,
+                "image": ""
+            },
+            {
+                "name": "וופל משפחתי",
+                "description": "משולשי וופל בלגי מוגש לצד: סוכריות צבעוניות, עדשים,\r\nמיני מרשמלו, לוז מסוכר, מייפל, חמאת בוטנים עם ריבה,\r\nשוקולד אגוזי לוז, שוקולד לבן",
+                "vegan": false,
+                "image": ""
+            },
+            {
+                "name": "עוגיית אנרגיה",
+                "description": "עוגיית גרנולה, אגוזים ופירות יבשים",
+                "vegan": true,
+                "image": ""
+            },
+            {
+                "name": "עוגות פטיסרי - פיסטוק",
+                "description": "תחתית שקדים, קרם פיסטסיו, גלייז פיסטוק",
+                "vegan": true,
+                "image": ""
+            },
+            {
+                "name": "עוגות פטיסרי - פירות יער",
+                "description": "תחתית שקדים, קרם פירות יער, קרם וניל, גלייז פירות יער",
+                "vegan": true,
+                "image": ""
+            },
+            {
+                "name": "עוגות פטיסרי - פררו רושה",
+                "description": "כדור שוקולד ממולא בקרם פרלינה, מוס שוקולד מריר ואגוזי לוז טחונים",
+                "vegan": false,
+                "image": ""
+            },
+            {
+                "name": "מים מינרליים",
+                "description": "",
+                "vegan": true,
+                "image": ""
+            },
+            {
+                "name": "קינלי סודה",
+                "description": "",
+                "vegan": true,
+                "image": ""
+            },
+            {
+                "name": "קוקה קולה",
+                "description": "",
+                "vegan": true,
+                "image": ""
+            },
+            {
+                "name": "קוקה קולה זירו",
+                "description": "",
+                "vegan": true,
+                "image": ""
+            },
+            {
+                "name": "ספרייט ליים",
+                "description": "",
+                "vegan": true,
+                "image": ""
+            },
+            {
+                "name": "ספרייט זירו",
+                "description": "",
+                "vegan": true,
+                "image": ""
+            },
+            {
+                "name": "פיוזטי",
+                "description": "",
+                "vegan": true,
+                "image": ""
+            },
+            {
+                "name": "מים בטעמים",
+                "description": "",
+                "vegan": true,
+                "image": ""
+            },
+            {
+                "name": "סיידר צלול",
+                "description": "",
+                "vegan": true,
+                "image": ""
+            },
+            {
+                "name": "מאלטי - בירה שחורה",
+                "description": "",
+                "vegan": true,
+                "image": ""
+            }
+        ]
+    },
+    {
+        "track_id": "25678",
+        "filters": [
+            "pizza"
+        ],
+        "image": "https://tenbis-static.azureedge.net/restaurant-card-image/ResCard_25678_20220120131747.jpg",
+        "address": "שדרות הרצל, 1 דימונה",
+        "location": [
+            35.02467499999999,
+            31.06497299999999
+        ],
+        "name": "פיצה האט",
+        "city": "דימונה",
+        "menu": [
+            {
+                "name": "ציזי בייט",
+                "description": "",
+                "vegan": true,
+                "image": "https://d25t2285lxl5rf.cloudfront.net/images/dishes/b965e277-29cb-486d-a001-471e18d4e0a7.jpg"
+            },
+            {
+                "name": "פיצה פאן אישית מבצק עבה",
+                "description": "",
+                "vegan": false,
+                "image": "https://d25t2285lxl5rf.cloudfront.net/images/dishes/9394dbaa-2621-4f02-b710-405f5fa04401.jpg"
+            },
+            {
+                "name": "פיצה פאן ענקית מבצק עבה",
+                "description": "",
+                "vegan": false,
+                "image": "https://d25t2285lxl5rf.cloudfront.net/images/dishes/0a0657bc-a382-4dd6-a580-fb978b3b6510.jpg"
+            },
+            {
+                "name": "פיצה אישית דקה",
+                "description": "",
+                "vegan": false,
+                "image": "https://d25t2285lxl5rf.cloudfront.net/images/dishes/a7ec67b3-c6b1-4112-88e9-5d17d0bf32b7.jpg"
+            },
+            {
+                "name": "פיצה ענקית דקה",
+                "description": "",
+                "vegan": false,
+                "image": "https://d25t2285lxl5rf.cloudfront.net/images/dishes/a40111f3-d705-47c4-8038-5e5faadabfa5.jpg"
+            },
+            {
+                "name": "פסטה פנה ברוטב שמנת",
+                "description": "",
+                "vegan": true,
+                "image": "https://d25t2285lxl5rf.cloudfront.net/images/dishes/aba00c1c-f6c1-4d70-a1b2-1fa3a970c202.jpg"
+            },
+            {
+                "name": "פיצה פאן אישית מבצק עבה",
+                "description": "",
+                "vegan": false,
+                "image": "https://d25t2285lxl5rf.cloudfront.net/images/dishes/9394dbaa-2621-4f02-b710-405f5fa04401.jpg"
+            },
+            {
+                "name": "פיצה פאן משפחתית מבצק עבה",
+                "description": "",
+                "vegan": false,
+                "image": "https://d25t2285lxl5rf.cloudfront.net/images/dishes/2ec4f465-14df-4ee9-8677-837b0c5d78e2.jpg"
+            },
+            {
+                "name": "פיצה פאן ענקית מבצק עבה",
+                "description": "",
+                "vegan": false,
+                "image": "https://d25t2285lxl5rf.cloudfront.net/images/dishes/0a0657bc-a382-4dd6-a580-fb978b3b6510.jpg"
+            },
+            {
+                "name": "פיצה משפחתית ללא גלוטן",
+                "description": "פיצה מרובעת ללא גלוטן ",
+                "vegan": false,
+                "image": "https://d25t2285lxl5rf.cloudfront.net/images/dishes/024b91fc-5129-40a2-a0a9-004fdccab6b5.jpg"
+            },
+            {
+                "name": "צ'יזי קראסט",
+                "description": "פיצה משפחתית מבצק דק עם מילוי גבינה בשוליים",
+                "vegan": false,
+                "image": "https://d25t2285lxl5rf.cloudfront.net/images/dishes/19a6a2c3-90ea-4134-9764-c6d85b88d5ef.jpg"
+            },
+            {
+                "name": "קראון פיצה",
+                "description": "פיצה מלכותית מעוטרת ב12 כדורי שמנת משובחת!",
+                "vegan": false,
+                "image": "https://d25t2285lxl5rf.cloudfront.net/images/dishes/a9af3b88-dbfb-4608-ae3b-5feb9aeb2159.jpg"
+            },
+            {
+                "name": "ציזי בייט",
+                "description": "",
+                "vegan": true,
+                "image": "https://d25t2285lxl5rf.cloudfront.net/images/dishes/b965e277-29cb-486d-a001-471e18d4e0a7.jpg"
+            },
+            {
+                "name": "פיצה לבנה",
+                "description": "פיצה מבצק דק עם שמנת כמהין, מוצרלה, פטריות טריות ואננס\t",
+                "vegan": false,
+                "image": "https://d25t2285lxl5rf.cloudfront.net/images/dishes/e2c682c7-03fd-4411-8ee7-92118dae6da8.jpg"
+            },
+            {
+                "name": "פיצה שמנת רוזה",
+                "description": "פיצה משפחתית דקה עם רוטב רוזה בתוספת בצל סגול ועגבניות שרי צבעוניות.",
+                "vegan": false,
+                "image": "https://d25t2285lxl5rf.cloudfront.net/images/dishes/64813d63-871a-406c-9c4e-92ff10caae49.jpg"
+            },
+            {
+                "name": "פיצה ללא גלוטן שמנת רוזה",
+                "description": "פיצה משפחתית מבצק ללא גלוטן עם רוטב שמנת עגבניות, מוצרלה, עגבניות שרי צבעוניות ובצל סגול",
+                "vegan": false,
+                "image": ""
+            },
+            {
+                "name": "פיצה לבנה ללא גלוטן",
+                "description": "פיצה משפחתית מבצק ללא גלוטן עם אננס ופטריות",
+                "vegan": false,
+                "image": ""
+            },
+            {
+                "name": "פיצה פרסקה",
+                "description": "פיצה מבצק דק עם גבינת שמנת שום, מוצרלה ומוצרלה פרסקה",
+                "vegan": false,
+                "image": ""
+            },
+            {
+                "name": "פיצה אישית דקה",
+                "description": "",
+                "vegan": false,
+                "image": "https://d25t2285lxl5rf.cloudfront.net/images/dishes/a7ec67b3-c6b1-4112-88e9-5d17d0bf32b7.jpg"
+            },
+            {
+                "name": "פיצה משפחתית דקה",
+                "description": "",
+                "vegan": false,
+                "image": "https://d25t2285lxl5rf.cloudfront.net/images/dishes/01d5a7e8-28fc-493f-8874-5dca7a35642a.jpg"
+            },
+            {
+                "name": "פיצה ענקית דקה",
+                "description": "",
+                "vegan": false,
+                "image": "https://d25t2285lxl5rf.cloudfront.net/images/dishes/a40111f3-d705-47c4-8038-5e5faadabfa5.jpg"
+            },
+            {
+                "name": "פיצה כפרית - משפחתית דקה",
+                "description": "זיתים ירוקים, תירס ופטריות",
+                "vegan": false,
+                "image": "https://d25t2285lxl5rf.cloudfront.net/images/dishes/efa93d6b-79db-4bc1-aa62-91ce733cac85.jpg"
+            },
+            {
+                "name": "פיצה כפרית - משפחתית עבה",
+                "description": " זיתים ירוקים, תירס ופטריות",
+                "vegan": false,
+                "image": "https://d25t2285lxl5rf.cloudfront.net/images/dishes/aa864aea-5aeb-47f6-8948-b4dc01cfde40.jpg"
+            },
+            {
+                "name": "פיצה כפרית - ענקית דקה",
+                "description": " זיתים ירוקים, תירס ופטריות",
+                "vegan": false,
+                "image": "https://d25t2285lxl5rf.cloudfront.net/images/dishes/142786d8-1850-45a7-81e6-6d2fc958e5ba.jpg"
+            },
+            {
+                "name": "פיצה כפרית - ענקית עבה",
+                "description": " זיתים ירוקים, תירס ופטריות",
+                "vegan": false,
+                "image": "https://d25t2285lxl5rf.cloudfront.net/images/dishes/4e0eb3e7-151f-4e5c-96db-cb3ca768b7f4.jpg"
+            },
+            {
+                "name": "פיצה יוונית - משפחתית דקה",
+                "description": "עגבניות, פטה וזיתים שחורים",
+                "vegan": false,
+                "image": "https://d25t2285lxl5rf.cloudfront.net/images/dishes/962f4d83-d2b9-473c-8f7a-ca2eb96ba982.jpg"
+            },
+            {
+                "name": "פיצה יוונית - משפחתית עבה",
+                "description": "עגבניות, פטה וזיתים שחורים",
+                "vegan": false,
+                "image": "https://d25t2285lxl5rf.cloudfront.net/images/dishes/a11976b6-426f-48c6-a5cf-556b8bcf4c90.jpg"
+            },
+            {
+                "name": "פיצה יוונית - ענקית דקה",
+                "description": "עגבניות, פטה וזיתים שחורים",
+                "vegan": false,
+                "image": "https://d25t2285lxl5rf.cloudfront.net/images/dishes/2e956d27-735d-4ef2-b544-bb5aba4e95dd.jpg"
+            },
+            {
+                "name": "פיצה יוונית - ענקית עבה",
+                "description": "עגבניות, פטה וזיתים שחורים",
+                "vegan": false,
+                "image": "https://d25t2285lxl5rf.cloudfront.net/images/dishes/ac771966-5dab-4a8e-b6b9-edd3ee0fd237.jpg"
+            },
+            {
+                "name": "פיצה חלפיניה - משפחתית דקה",
+                "description": "עגבניות פטה וחלפיניו",
+                "vegan": false,
+                "image": "https://d25t2285lxl5rf.cloudfront.net/images/dishes/67f4cc76-4192-4497-8f8f-3e56729d857f.png"
+            },
+            {
+                "name": "פיצה חלפיניה - משפחתית עבה",
+                "description": "עגבניות פטה וחלפיניו",
+                "vegan": false,
+                "image": "https://d25t2285lxl5rf.cloudfront.net/images/dishes/4da86302-a99f-48fb-a078-40ac15c465cd.png"
+            },
+            {
+                "name": "פיצה חלפיניה - ענקית דקה",
+                "description": "עגבניות פטה וחלפיניו",
+                "vegan": false,
+                "image": "https://d25t2285lxl5rf.cloudfront.net/images/dishes/f14eb3b2-afdc-4759-b20a-bfc962be8ea9.png"
+            },
+            {
+                "name": "פיצה חלפיניה - ענקית עבה",
+                "description": "עגבניות פטה וחלפיניו",
+                "vegan": false,
+                "image": "https://d25t2285lxl5rf.cloudfront.net/images/dishes/e8e2f1c6-84ba-4928-a347-f5c8eb4a277d.png"
+            },
+            {
+                "name": "טבעונית ללא גלוטן",
+                "description": "",
+                "vegan": true,
+                "image": "https://d25t2285lxl5rf.cloudfront.net/images/dishes/a3a9b4db-3e65-49d3-8c0b-0563efebe9c2.jpg"
+            },
+            {
+                "name": "טבעונית מבצק דק",
+                "description": "",
+                "vegan": true,
+                "image": "https://d25t2285lxl5rf.cloudfront.net/images/dishes/aa9429b2-179d-449a-934b-56ba7961a98f.jpg"
+            },
+            {
+                "name": "טבעונית מבצע עבה",
+                "description": "",
+                "vegan": true,
+                "image": "https://d25t2285lxl5rf.cloudfront.net/images/dishes/35e13d53-9bc1-4442-ba5b-a0fc14db6601.jpg"
+            },
+            {
+                "name": "פסטה פנה ברוטב עגבניות",
+                "description": "",
+                "vegan": true,
+                "image": "https://d25t2285lxl5rf.cloudfront.net/images/dishes/7e26554a-b138-4b6b-8e0e-75fa78532664.jpg"
+            },
+            {
+                "name": "פסטה פנה ברוטב שמנת",
+                "description": "",
+                "vegan": true,
+                "image": "https://d25t2285lxl5rf.cloudfront.net/images/dishes/aba00c1c-f6c1-4d70-a1b2-1fa3a970c202.jpg"
+            },
+            {
+                "name": "פסטה פנה ברוטב שמנת פטריות",
+                "description": "",
+                "vegan": true,
+                "image": "https://d25t2285lxl5rf.cloudfront.net/images/dishes/ed37b58b-7c41-4f81-9a05-629a4b6dcd5a.jpg"
+            },
+            {
+                "name": "פסטה פנה ברוטב רוזה",
+                "description": "",
+                "vegan": true,
+                "image": "https://d25t2285lxl5rf.cloudfront.net/images/dishes/bd271761-641d-4654-95a6-7f003001d489.jpg"
+            },
+            {
+                "name": "קיש בטטה",
+                "description": "",
+                "vegan": true,
+                "image": "https://d25t2285lxl5rf.cloudfront.net/images/dishes/aa89acb5-bf63-4e09-9072-95fc6f383b86.jpg"
+            },
+            {
+                "name": "קיש פטריות",
+                "description": "",
+                "vegan": true,
+                "image": "https://d25t2285lxl5rf.cloudfront.net/images/dishes/965e764a-9840-40ce-bc7d-ad8197e2f0f8.jpg"
+            },
+            {
+                "name": "סלט בהרכבה אישית - גדול",
+                "description": "ניתן לבחור את המרכיבים לסלט. מגיע עם רוטב שום / אלף האיים בצד.",
+                "vegan": true,
+                "image": "https://d25t2285lxl5rf.cloudfront.net/images/dishes/c3c38c47-834a-4824-a20f-da666a4442b9.jpg"
+            },
+            {
+                "name": "סלט יווני",
+                "description": "מגיע עם רוטב שום / אלף האיים בצד.\nמלפפון, עגבנייה, פלפל אדום, פלפל צהוב, זיתים שחורים, עגבניות שרי, בצל סגול, גבינת פטה ",
+                "vegan": true,
+                "image": "https://d25t2285lxl5rf.cloudfront.net/images/dishes/2effead5-94f2-4d41-9daa-15e12a2c5cfc.jpg"
+            },
+            {
+                "name": "סלט ירושלמי",
+                "description": "בורגול, בצל, עגבנייה, מלפפון, חציל, תפוח אדמה וטונה.",
+                "vegan": true,
+                "image": ""
+            },
+            {
+                "name": "לחם שום אישי",
+                "description": "לחם שום ביתי עם חמאת שום, מתובל באורגנו",
+                "vegan": true,
+                "image": "https://d25t2285lxl5rf.cloudfront.net/images/dishes/5b2de34d-db96-4c15-8429-e02d88d6f518.jpg"
+            },
+            {
+                "name": "לחם שום פטה אישי",
+                "description": "לחם שום עם גבינת פטה מתובל בזעתר ושומשום",
+                "vegan": true,
+                "image": "https://d25t2285lxl5rf.cloudfront.net/images/dishes/42d44115-4570-48f6-974e-01c74cfba184.jpg"
+            },
+            {
+                "name": "לחם שום פטה משפחתי",
+                "description": "לחם שום עם גבינת פטה מתובל בזעתר ושומשום",
+                "vegan": true,
+                "image": "https://d25t2285lxl5rf.cloudfront.net/images/dishes/b86c3ca2-286d-4985-bcda-b63a9301c9fe.jpg"
+            },
+            {
+                "name": "לחם שום משפחתי",
+                "description": "לחם שום ביתי עם חמאת שום, מתובל באורגנו",
+                "vegan": true,
+                "image": "https://d25t2285lxl5rf.cloudfront.net/images/dishes/3276b1af-6073-4594-adcc-bbe88fa867de.jpg"
+            },
+            {
+                "name": "זיווה",
+                "description": "מוצרלה,פטה שומשום וקצח",
+                "vegan": false,
+                "image": "https://d25t2285lxl5rf.cloudfront.net/images/dishes/ad6c27dc-d019-4c79-8cf1-d96574d6bd2f.jpg"
+            },
+            {
+                "name": "טבעות בצל אפויות",
+                "description": "8 טבעות",
+                "vegan": true,
+                "image": "https://d25t2285lxl5rf.cloudfront.net/images/dishes/c8b224d0-5273-4389-8331-3590f0cba0be.jpg"
+            },
+            {
+                "name": "נגיסי תירס",
+                "description": "חטיפי תירס אפויים",
+                "vegan": true,
+                "image": "https://d25t2285lxl5rf.cloudfront.net/images/dishes/1dea6b6d-8740-438e-b129-d139eaf9c30c.jpg"
+            },
+            {
+                "name": "פוקצ'ה מוצרלה עגבניות",
+                "description": "",
+                "vegan": false,
+                "image": "https://d25t2285lxl5rf.cloudfront.net/images/dishes/42c9e345-ee9f-4fcf-a766-b28ab5591032.jpg"
+            },
+            {
+                "name": "פוקצ'ה גבינת פטה וחצילים",
+                "description": "",
+                "vegan": true,
+                "image": "https://d25t2285lxl5rf.cloudfront.net/images/dishes/d82bcdf2-983c-4cdc-92df-1bd0c6c320f9.jpg"
+            },
+            {
+                "name": "מקלות שום מוצרלה",
+                "description": "",
+                "vegan": false,
+                "image": ""
+            },
+            {
+                "name": "פוטטוס",
+                "description": "",
+                "vegan": true,
+                "image": ""
+            },
+            {
+                "name": "פוטטוס בצילי מתוק",
+                "description": "",
+                "vegan": true,
+                "image": ""
+            },
+            {
+                "name": "בלינצ'ס גבינה",
+                "description": "",
+                "vegan": false,
+                "image": "https://d25t2285lxl5rf.cloudfront.net/images/dishes/316f436c-4b53-40f3-a2f6-d97f70855cd1.jpg"
+            },
+            {
+                "name": "בן אנג'ריס אישי קרם עוגיות",
+                "description": "הגלידה המופרסמת של בן אנג'ריס בגודל אישי  ",
+                "vegan": true,
+                "image": "https://d25t2285lxl5rf.cloudfront.net/images/dishes/08c7c424-fad0-42f5-b030-16e688f16c52.jpg"
+            },
+            {
+                "name": "מקלות שוקולד בגודל אישי",
+                "description": "* מידע לאלרגנים- מכיל אגוז לוז,שקד וקוקוס *",
+                "vegan": false,
+                "image": "https://d25t2285lxl5rf.cloudfront.net/images/dishes/527dc75c-8ffc-4c30-8c0c-63b347ddf1f2.jpg"
+            },
+            {
+                "name": "מקלות שוקולד בגודל משפחתי",
+                "description": "* מידע לאלרגנים- מכיל אגוז לוז,שקד וקוקוס *",
+                "vegan": false,
+                "image": "https://d25t2285lxl5rf.cloudfront.net/images/dishes/f57aec77-7cf8-4062-ba9c-0993c75faba6.jpg"
+            },
+            {
+                "name": "וופל בלגי",
+                "description": "3 יחידות וופל בלגי אישיות בתוספת קעריות רוטב שוקולד ומייפל",
+                "vegan": false,
+                "image": "https://d25t2285lxl5rf.cloudfront.net/images/dishes/64bfdd27-07fa-41d9-8c06-a2fa4ffc74d1.jpg"
+            },
+            {
+                "name": "זיווה שוקולד",
+                "description": "",
+                "vegan": false,
+                "image": "https://d25t2285lxl5rf.cloudfront.net/images/dishes/2768395.jpg"
+            },
+            {
+                "name": "פיינט קרם עוגיות- משפחתית",
+                "description": "",
+                "vegan": true,
+                "image": ""
+            },
+            {
+                "name": "פיינט וניל- משפחתית",
+                "description": "",
+                "vegan": true,
+                "image": ""
+            },
+            {
+                "name": "פיינט שוקולד בראוניס- משפחתית",
+                "description": "",
+                "vegan": false,
+                "image": ""
+            },
+            {
+                "name": "גלידת בן אנד ג'ריס פיינט - וניל",
+                "description": "500 מ\"ל בטעם וניל",
+                "vegan": true,
+                "image": ""
+            },
+            {
+                "name": "שלישיית מיסטר דונאטס",
+                "description": "שלישיית דונאטס בתוספת קליק, אוראו ולוטוס",
+                "vegan": true,
+                "image": ""
+            },
+            {
+                "name": "שלישיית קאפקייקס",
+                "description": "",
+                "vegan": true,
+                "image": ""
+            },
+            {
+                "name": "רוטב  פיצה",
+                "description": "רוטב פיצה",
+                "vegan": false,
+                "image": "https://d25t2285lxl5rf.cloudfront.net/images/dishes/31f5fe1a-d1cc-4b33-b1b9-ab35cb750a27.jpg"
+            },
+            {
+                "name": "רוטב שום",
+                "description": "רוטב שום",
+                "vegan": true,
+                "image": "https://d25t2285lxl5rf.cloudfront.net/images/dishes/4995da11-69b5-4a56-abc3-4c60cb1fc44d.png"
+            },
+            {
+                "name": "רוטב אלף האיים",
+                "description": "רוטב אלף האיים",
+                "vegan": true,
+                "image": "https://d25t2285lxl5rf.cloudfront.net/images/dishes/4d942900-6d55-4bc1-b7b2-343932dff5d4.png"
+            },
+            {
+                "name": "בקבוק נביעות 0.5 ליטר",
+                "description": "",
+                "vegan": true,
+                "image": ""
+            },
+            {
+                "name": "פחית קוקה-קולה",
+                "description": "",
+                "vegan": true,
+                "image": ""
+            },
+            {
+                "name": "פחית קוקה-קולה זירו",
+                "description": "",
+                "vegan": true,
+                "image": ""
+            },
+            {
+                "name": "פחית דיאט קוקה-קולה",
+                "description": "",
+                "vegan": true,
+                "image": ""
+            },
+            {
+                "name": "פחית ספרייט",
+                "description": "",
+                "vegan": true,
+                "image": ""
+            },
+            {
+                "name": "פחית ספרייט זירו",
+                "description": "",
+                "vegan": true,
+                "image": ""
+            },
+            {
+                "name": "פחית פאנטה תפוזים",
+                "description": "",
+                "vegan": true,
+                "image": ""
+            },
+            {
+                "name": "קינלי סודה",
+                "description": "",
+                "vegan": true,
+                "image": ""
+            },
+            {
+                "name": "בקבוק פריגת תפוזים 0.5 ליטר",
+                "description": "",
+                "vegan": true,
+                "image": ""
+            },
+            {
+                "name": "בקבוק פריגת ענבים 0.5 ליטר",
+                "description": "",
+                "vegan": true,
+                "image": ""
+            },
+            {
+                "name": "נביעות בטעם ענבים עדין 0.5 ליטר",
+                "description": "",
+                "vegan": true,
+                "image": ""
+            },
+            {
+                "name": "פיוז טי",
+                "description": "",
+                "vegan": true,
+                "image": ""
+            },
+            {
+                "name": "נביעות בטעם תפוח עדין 0.5 ליטר",
+                "description": "",
+                "vegan": true,
+                "image": ""
+            },
+            {
+                "name": "מים בטעם אפרסק",
+                "description": "",
+                "vegan": true,
+                "image": ""
+            },
+            {
+                "name": "בקבוק קוקה-קולה 1.5 ליטר",
+                "description": "",
+                "vegan": true,
+                "image": ""
+            },
+            {
+                "name": "בקבוק דיאט קוקה-קולה 1.5 ליטר",
+                "description": "",
+                "vegan": true,
+                "image": ""
+            },
+            {
+                "name": "בקבוק פאנטה תפוזים 1.5 ליטר",
+                "description": "",
+                "vegan": true,
+                "image": ""
+            },
+            {
+                "name": "בקבוק ספרייט 1.5 ליטר",
+                "description": "",
+                "vegan": true,
+                "image": ""
+            },
+            {
+                "name": "בקבוק ספרייט זירו 1.5 ליטר",
+                "description": "",
+                "vegan": true,
+                "image": ""
+            },
+            {
+                "name": "בקבוק פריגת ענבים 1.5 ליטר",
+                "description": "",
+                "vegan": true,
+                "image": ""
+            },
+            {
+                "name": "בקבוק פריגת תפוזים 1.5 ליטר",
+                "description": "",
+                "vegan": true,
+                "image": ""
+            },
+            {
+                "name": "בקבוק קוקה קולה זירו 1.5",
+                "description": "",
+                "vegan": true,
+                "image": ""
+            },
+            {
+                "name": "פיוזטי ליטר וחצי\n",
+                "description": "",
+                "vegan": true,
+                "image": ""
+            },
+            {
+                "name": "בקבוק נביעות 1.5 ליטר",
+                "description": "",
+                "vegan": true,
+                "image": ""
+            }
+        ]
+    },
+    {
+        "track_id": "2024",
+        "filters": [
+            "burgers",
+            "meatGrill",
+            "veganFood"
+        ],
+        "image": "https://tenbis-static.azureedge.net/restaurant-card-image/ResCard_2024_20220111104810.jpeg",
+        "address": "הפועלים, 5 דימונה",
+        "location": [
+            35.0192015,
+            31.062823
+        ],
+        "name": "בורגראנץ'",
+        "city": "דימונה",
+        "menu": [
+            {
+                "name": "ארוחת ראנץ' M",
+                "description": "ראנץ', תוספת מוגדלת ושתייה",
+                "vegan": true,
+                "image": "https://cdn.paypo.com/images/brcatalog/1000/11901_1.jpg"
+            },
+            {
+                "name": "ארוחת ראנץ' טבעוני M",
+                "description": "מוגש עם רוטב אלף האיים, ברביקיו, חסה, עגבנייה בצל וחמוצים",
+                "vegan": true,
+                "image": "https://cdn.paypo.com/images/brcatalog/1000/11902_1.jpg"
+            },
+            {
+                "name": "ארוחת ספרדי M",
+                "description": "ראנץ' ספרדי, תוספת מוגדלת ושתייה",
+                "vegan": true,
+                "image": "https://cdn.paypo.com/images/brcatalog/1000/11904_1.jpg"
+            },
+            {
+                "name": "ארוחת צ'יקן גריל M",
+                "description": "צ'יקן גריל 100% עוף, 1% שומן, תוספת ושתייה",
+                "vegan": true,
+                "image": "https://cdn.paypo.com/images/brcatalog/1000/11906_1.jpg"
+            },
+            {
+                "name": "ארוחת משולש ראנץ' M",
+                "description": "ראנץ' משולש, תוספת מוגדלת ושתייה",
+                "vegan": true,
+                "image": "https://cdn.paypo.com/images/brcatalog/1000/11907_0.jpg"
+            },
+            {
+                "name": "ארוחת משולש ספרדי M",
+                "description": "ראנץ' ספרדי משולש, תוספת מוגדלת ושתייה",
+                "vegan": true,
+                "image": "https://cdn.paypo.com/images/brcatalog/1000/11908_1.jpg"
+            },
+            {
+                "name": "ארוחת שניצל קריספי M",
+                "description": "שניצל קריספי 100% עוף, תוספת מוגדלת ושתייה",
+                "vegan": true,
+                "image": "https://cdn.paypo.com/images/brcatalog/1000/11910_1.jpg"
+            },
+            {
+                "name": "ארוחת ראנצ'יקס M",
+                "description": "ראנצ'יקס 100% עוף, תוספת מוגדלת ושתייה",
+                "vegan": true,
+                "image": "https://cdn.paypo.com/images/brcatalog/1000/11911_1.jpg"
+            },
+            {
+                "name": "ארוחת כוכבי ראנץ' M",
+                "description": "כוכבי ראנץ', תוספת מוגדלת ושתייה",
+                "vegan": true,
+                "image": "https://cdn.paypo.com/images/brcatalog/1000/11913_1.jpg"
+            },
+            {
+                "name": "ארוחת כנפי ראנץ' M",
+                "description": "כנפי ראנץ', תוספת מוגדלת ושתייה",
+                "vegan": true,
+                "image": "https://cdn.paypo.com/images/brcatalog/1000/11914_1.jpg"
+            },
+            {
+                "name": "ארוחת ראנץ' כפול M",
+                "description": "ראנץ' כפול, תוספת ושתייה",
+                "vegan": true,
+                "image": "https://cdn.paypo.com/images/brcatalog/1000/11915_0.jpg"
+            },
+            {
+                "name": "ארוחת ראנץ' מיונז M",
+                "description": "חסה, עגבנייה, בצל, מלפפון חמוץ, רוטב מיונז.",
+                "vegan": true,
+                "image": "https://cdn.paypo.com/images/brcatalog/1000/11920_1.jpg"
+            },
+            {
+                "name": "ארוחת ראנץ' חריף M",
+                "description": "חסה, עגבנייה, בצל, מלפפון חמוץ, רוטב מיונז",
+                "vegan": true,
+                "image": "https://cdn.paypo.com/images/brcatalog/1000/11921_1.jpg"
+            },
+            {
+                "name": "ארוחת אנגוס 180 גרם M",
+                "description": "אנגוס 180 גרם לפני צלייה, חסה, עגבנייה, מלפפון חמוץ, בצל ומיונז. תוספת ושתיה.",
+                "vegan": true,
+                "image": "https://cdn.paypo.com/images/brcatalog/1000/11925_1.jpg"
+            },
+            {
+                "name": "ארוחת אנגוס 250 גרם M",
+                "description": "אנגוס 250 גרם לפני צלייה, חסה, עגבנייה, מלפפון חמוץ, בצל ומיונז. תוספת ושתיה.",
+                "vegan": true,
+                "image": "https://cdn.paypo.com/images/brcatalog/1000/11928_1.jpg"
+            },
+            {
+                "name": "ארוחת ראנץ' אנגוס כפול 360 גרם M",
+                "vegan": true,
+                "image": "https://cdn.paypo.com/images/brcatalog/1000/11933_0.jpg"
+            },
+            {
+                "name": "ארוחת ראנץ' אנגוס עם טבעות בצל 180 גרם M",
+                "vegan": true,
+                "image": "https://cdn.paypo.com/images/brcatalog/1000/11934_0.jpg"
+            },
+            {
+                "name": "ארוחת ראנץ' אנגוס ספרדי 180 גרם M",
+                "vegan": true,
+                "image": "https://cdn.paypo.com/images/brcatalog/1000/11935_0.jpg"
+            },
+            {
+                "name": "ארוחת ראנץ' אנגוס ספרדי כפול 360 גרם M",
+                "vegan": true,
+                "image": "https://cdn.paypo.com/images/brcatalog/1000/11936_0.jpg"
+            },
+            {
+                "name": "ארוחת ילדים ראנץ' חטיפי תירס M",
+                "vegan": true,
+                "image": "https://cdn.paypo.com/images/brcatalog/1000/12000_0.jpg"
+            },
+            {
+                "name": "ארוחת ילדים נקניקיה M",
+                "vegan": true,
+                "image": "https://cdn.paypo.com/images/brcatalog/1000/12001_0.jpg"
+            },
+            {
+                "name": "ארוחת ילדים שניצל קריספי M",
+                "vegan": true,
+                "image": "https://cdn.paypo.com/images/brcatalog/1000/12002_0.jpg"
+            },
+            {
+                "name": "ארוחת ילדים קיד צ'יקן M",
+                "vegan": true,
+                "image": "https://cdn.paypo.com/images/brcatalog/1000/12003_0.jpg"
+            },
+            {
+                "name": "ארוחת ילדים ראנצ'קיד M",
+                "vegan": true,
+                "image": "https://cdn.paypo.com/images/brcatalog/1000/12004_0.jpg"
+            },
+            {
+                "name": "ארוחת ילדים כוכבי ראנץ' M",
+                "vegan": true,
+                "image": "https://cdn.paypo.com/images/brcatalog/1000/12005_0.jpg"
+            },
+            {
+                "name": "צעצוע לארוחת ילדים",
+                "vegan": true,
+                "image": "https://cdn.paypo.com/images/brcatalog/1000/12006_1.jpg"
+            },
+            {
+                "name": "ראנץ'",
+                "vegan": true,
+                "image": "https://cdn.paypo.com/images/brcatalog/1000/12100_1.jpg"
+            },
+            {
+                "name": "ראנץ' כפול",
+                "vegan": true,
+                "image": "https://cdn.paypo.com/images/brcatalog/1000/12101_1.jpg"
+            },
+            {
+                "name": "ראנץ' משולש",
+                "vegan": true,
+                "image": "https://cdn.paypo.com/images/brcatalog/1000/12102_1.jpg"
+            },
+            {
+                "name": "ספרדי",
+                "vegan": true,
+                "image": "https://cdn.paypo.com/images/brcatalog/1000/12103_1.jpg"
+            },
+            {
+                "name": "ספרדי כפול",
+                "vegan": true,
+                "image": "https://cdn.paypo.com/images/brcatalog/1000/12104_1.jpg"
+            },
+            {
+                "name": "ספרדי משולש",
+                "vegan": true,
+                "image": "https://cdn.paypo.com/images/brcatalog/1000/12105_1.jpg"
+            },
+            {
+                "name": "צ'יקן גריל",
+                "vegan": true,
+                "image": "https://cdn.paypo.com/images/brcatalog/1000/12106_1.jpg"
+            },
+            {
+                "name": "צ'יקן גריל כפול",
+                "vegan": true,
+                "image": "https://cdn.paypo.com/images/brcatalog/1000/12107_1.jpg"
+            },
+            {
+                "name": "שניצל קריספי",
+                "vegan": true,
+                "image": "https://cdn.paypo.com/images/brcatalog/1000/12108_1.jpg"
+            },
+            {
+                "name": "ראנץ' טבעוני",
+                "vegan": true,
+                "image": "https://cdn.paypo.com/images/brcatalog/1000/12109_1.jpg"
+            },
+            {
+                "name": "כנפי ראנץ' 6 יחידות",
+                "vegan": true,
+                "image": "https://cdn.paypo.com/images/brcatalog/1000/12112_1.jpg"
+            },
+            {
+                "name": "נקניקית ראנץ'",
+                "vegan": true,
+                "image": "https://cdn.paypo.com/images/brcatalog/1000/12115_2.jpg"
+            },
+            {
+                "name": "מאנץ' ראנץ'",
+                "description": "מיקס מטוגנים לנשנוש מושלם",
+                "vegan": true,
+                "image": "https://cdn.paypo.com/images/brcatalog/1000/12116_1.jpg"
+            },
+            {
+                "name": "כוכבים 4 יח'",
+                "description": "4 יחידות",
+                "vegan": true,
+                "image": "https://cdn.paypo.com/images/brcatalog/1000/12117_1.jpg"
+            },
+            {
+                "name": "כוכבים 6 יח'",
+                "description": "6 יחידות",
+                "vegan": true,
+                "image": "https://cdn.paypo.com/images/brcatalog/1000/12118_1.jpg"
+            },
+            {
+                "name": "כוכבים 8 יח'",
+                "description": "8 יחידות",
+                "vegan": true,
+                "image": "https://cdn.paypo.com/images/brcatalog/1000/12119_1.jpg"
+            },
+            {
+                "name": "כוכבים 12 יח'",
+                "description": "12 יחידות",
+                "vegan": true,
+                "image": "https://cdn.paypo.com/images/brcatalog/1000/12120_1.jpg"
+            },
+            {
+                "name": "כנפי ראנץ' 4 יחידות",
+                "description": "4 יחידות",
+                "vegan": true,
+                "image": "https://cdn.paypo.com/images/brcatalog/1000/12121_1.jpg"
+            },
+            {
+                "name": "כנפי ראנץ' 8 יחידות",
+                "description": "8 יחידות",
+                "vegan": true,
+                "image": "https://cdn.paypo.com/images/brcatalog/1000/12123_3.jpg"
+            },
+            {
+                "name": "כנפי ראנץ' 12 יחידות",
+                "description": "12 יחידות",
+                "vegan": true,
+                "image": "https://cdn.paypo.com/images/brcatalog/1000/12124_3.jpg"
+            },
+            {
+                "name": "ראנצ'יקס 5 יח'",
+                "description": "5 יחידות",
+                "vegan": true,
+                "image": "https://cdn.paypo.com/images/brcatalog/1000/12126_3.jpg"
+            },
+            {
+                "name": "ראנצ'יקס 7 יח'",
+                "description": "7 יחידות",
+                "vegan": true,
+                "image": "https://cdn.paypo.com/images/brcatalog/1000/12127_3.jpg"
+            },
+            {
+                "name": "ראנצ'יקס 11 יח'",
+                "description": "11 יחידות",
+                "vegan": true,
+                "image": "https://cdn.paypo.com/images/brcatalog/1000/12128_3.jpg"
+            },
+            {
+                "name": "חטיפי תירס 6 יחידות",
+                "description": "6 יחידות",
+                "vegan": true,
+                "image": "https://cdn.paypo.com/images/brcatalog/1000/12129_1.jpg"
+            },
+            {
+                "name": "חטיפי תירס 8 יחידות",
+                "description": "8 יחידות",
+                "vegan": true,
+                "image": "https://cdn.paypo.com/images/brcatalog/1000/12130_1.jpg"
+            },
+            {
+                "name": "חטיפי תירס 10 יחידות",
+                "description": "10 יחידות",
+                "vegan": true,
+                "image": "https://cdn.paypo.com/images/brcatalog/1000/12131_1.jpg"
+            },
+            {
+                "name": "חטיפי תירס 12 יחידות",
+                "description": "12 יחידות",
+                "vegan": true,
+                "image": "https://cdn.paypo.com/images/brcatalog/1000/12132_1.jpg"
+            },
+            {
+                "name": "ראנצ'קיד",
+                "description": "יבש",
+                "vegan": true,
+                "image": "https://cdn.paypo.com/images/brcatalog/1000/12133_2.jpg"
+            },
+            {
+                "name": "קיד צ'יקן",
+                "description": "יבש",
+                "vegan": true,
+                "image": "https://cdn.paypo.com/images/brcatalog/1000/12134_2.jpg"
+            },
+            {
+                "name": "שניצל קיד",
+                "description": "יבש",
+                "vegan": true,
+                "image": "https://cdn.paypo.com/images/brcatalog/1000/12135_2.jpg"
+            },
+            {
+                "name": "ראנץ' חריף",
+                "description": "חסה, עגבנייה, בצל, מלפפון חמוץ, רוטב חריף.",
+                "vegan": true,
+                "image": "https://cdn.paypo.com/images/brcatalog/1000/12139_2.jpg"
+            },
+            {
+                "name": "ראנץ' כפול חריף",
+                "description": "חסה, עגבנייה, בצל, מלפפון חמוץ, רוטב חריף.",
+                "vegan": true,
+                "image": "https://cdn.paypo.com/images/brcatalog/1000/12140_2.jpg"
+            },
+            {
+                "name": "ראנץ' משולש חריף",
+                "description": "חסה, עגבנייה, בצל, מלפפון חמוץ, רוטב חריף.",
+                "vegan": true,
+                "image": "https://cdn.paypo.com/images/brcatalog/1000/12141_2.jpg"
+            },
+            {
+                "name": "ראנץ' מיונז",
+                "description": "חסה, עגבנייה, בצל, מלפפון חמוץ, רוטב מיונז",
+                "vegan": true,
+                "image": "https://cdn.paypo.com/images/brcatalog/1000/12142_1.jpg"
+            },
+            {
+                "name": "ראנץ' מיונז כפול",
+                "description": "חסה, עגבנייה, בצל, מלפפון חמוץ, רוטב מיונז",
+                "vegan": true,
+                "image": "https://cdn.paypo.com/images/brcatalog/1000/12143_1.jpg"
+            },
+            {
+                "name": "ראנץ' מיונז משולש",
+                "description": "חסה, עגבנייה, בצל, מלפפון חמוץ, רוטב מיונז.",
+                "vegan": true,
+                "image": "https://cdn.paypo.com/images/brcatalog/1000/12144_1.jpg"
+            },
+            {
+                "name": "אנגוס 180 גרם",
+                "description": "אנגוס 180 גרם לפני צלייה, חסה, עגבנייה, מלפפון חמוץ, בצל ומיונז.",
+                "vegan": true,
+                "image": "https://cdn.paypo.com/images/brcatalog/1000/12145_2.jpg"
+            },
+            {
+                "name": "אנגוס 250 גרם",
+                "description": "אנגוס 250 גרם לפני צלייה, חסה, עגבנייה, מלפפון חמוץ, בצל ומיונז.",
+                "vegan": true,
+                "image": "https://cdn.paypo.com/images/brcatalog/1000/12146_1.jpg"
+            },
+            {
+                "name": "ראנץ' אנגוס כפול 360 גרם",
+                "vegan": true,
+                "image": "https://cdn.paypo.com/images/brcatalog/1000/12159_0.jpg"
+            },
+            {
+                "name": "ראנץ' אנגוס עם טבעות בצל 180 גרם",
+                "vegan": true,
+                "image": "https://cdn.paypo.com/images/brcatalog/1000/12160_0.jpg"
+            },
+            {
+                "name": "ראנץ' אנגוס ספרדי 180 גרם",
+                "vegan": true,
+                "image": "https://cdn.paypo.com/images/brcatalog/1000/12161_0.jpg"
+            },
+            {
+                "name": "ראנץ' אנגוס ספרדי  כפול 360 גרם",
+                "vegan": true,
+                "image": "https://cdn.paypo.com/images/brcatalog/1000/12162_0.jpg"
+            },
+            {
+                "name": "חטיפי נקניקיות",
+                "description": "3 יח' נקניקיות חתוכות",
+                "vegan": true,
+                "image": "https://cdn.paypo.com/images/brcatalog/1000/12163_1.jpg"
+            },
+            {
+                "name": "קומבינה לארבעה אנשים M",
+                "vegan": true,
+                "image": "https://cdn.paypo.com/images/brcatalog/1000/12200_0.jpg"
+            },
+            {
+                "name": "קומבינה לשלושה אנשים M",
+                "description": "3 מנות בשריות לבחירה, 2 מנות צ'יפס, מנת טבעות בצל, 2 נקניקיות חתוכות ו-3 בקבוקי שתיה",
+                "vegan": true,
+                "image": "https://cdn.paypo.com/images/brcatalog/1000/12201_0.jpg"
+            },
+            {
+                "name": "קומבינה אחד על אחד M",
+                "description": "שתי מנות בשריות לבחירה, מנת צ'יפס, ארבע טבעות בצל, נקניקיה חתוכה לרבעים ושני בקבוקי שתיה",
+                "vegan": true,
+                "image": "https://cdn.paypo.com/images/brcatalog/1000/12202_0.jpg"
+            },
+            {
+                "name": "קומבינה משפחתית M",
+                "description": "2 מנות מבוגר לבחירה, 2 מנות ילדים לבחירה, 2 הפתעות, צ'יפס, טבעות בצל, נקניקה חתוכה לרבעים ו-4 בקבוקי שתיה",
+                "vegan": true,
+                "image": "https://cdn.paypo.com/images/brcatalog/1000/12203_0.jpg"
+            },
+            {
+                "name": "סלט ראנץ'",
+                "vegan": true,
+                "image": "https://cdn.paypo.com/images/brcatalog/1000/13100_0.jpg"
+            },
+            {
+                "name": "טורטיה ראנץ' צ'יקן גריל",
+                "vegan": true,
+                "image": "https://cdn.paypo.com/images/brcatalog/1000/13101_0.jpg"
+            },
+            {
+                "name": "ארוחת טורטיה צ'יקן גריל M",
+                "vegan": true,
+                "image": "https://cdn.paypo.com/images/brcatalog/1000/13102_0.jpg"
+            },
+            {
+                "name": "טורטיה ראנץ' ברבקיו",
+                "vegan": true,
+                "image": "https://cdn.paypo.com/images/brcatalog/1000/13104_0.jpg"
+            },
+            {
+                "name": "טורטיה ראנץ' צמחונית",
+                "vegan": true,
+                "image": "https://cdn.paypo.com/images/brcatalog/1000/13105_0.jpg"
+            },
+            {
+                "name": "ארוחת טורטיה ברבקיו M",
+                "vegan": true,
+                "image": "https://cdn.paypo.com/images/brcatalog/1000/13106_0.jpg"
+            },
+            {
+                "name": "ארוחת טורטיה צמחונית M",
+                "vegan": true,
+                "image": "https://cdn.paypo.com/images/brcatalog/1000/13108_0.jpg"
+            },
+            {
+                "name": "סלט קוסקוס ישראלי",
+                "description": "מלפפון, עגבנייה, קוסקוס מלא, בצל, פטרוזיליה ונענע. מוגש עם רוטב שמן זית לימון בצד.",
+                "vegan": true,
+                "image": "https://cdn.paypo.com/images/brcatalog/1000/13109_0.jpg"
+            },
+            {
+                "name": "סלט קיסריה",
+                "description": "חסה, קרוטונים, טבעות בצל ורוטב קיסריה",
+                "vegan": true,
+                "image": "https://cdn.paypo.com/images/brcatalog/1000/13110_0.jpg"
+            },
+            {
+                "name": "ארוחת טורטיה טבעונית M",
+                "description": "טורטייה טבעונית טעימה עם המבורגר טבעוני, חסה, עגבנייה ואלף האיים",
+                "vegan": true,
+                "image": "https://cdn.paypo.com/images/brcatalog/1000/13111_1.jpg"
+            },
+            {
+                "name": "טורטיה ראנץ' טבעונית",
+                "description": "טורטייה טבעונית טעימה עם המבורגר טבעוני, חסה, עגבנייה ואלף האיים",
+                "vegan": true,
+                "image": "https://cdn.paypo.com/images/brcatalog/1000/13112_1.jpg"
+            },
+            {
+                "name": "צ'יפס מאנץ'",
+                "vegan": true,
+                "image": "https://cdn.paypo.com/images/brcatalog/1000/12700_2.jpg"
+            },
+            {
+                "name": "צ'יפס בטטה מאנץ'",
+                "vegan": true,
+                "image": "https://cdn.paypo.com/images/brcatalog/1000/12701_0.jpg"
+            },
+            {
+                "name": "טבעות בצל מאנץ'",
+                "description": "15 יחידות",
+                "vegan": true,
+                "image": "https://cdn.paypo.com/images/brcatalog/1000/12703_1.jpg"
+            },
+            {
+                "name": "מאנץ' פופסים",
+                "vegan": true,
+                "image": "https://cdn.paypo.com/images/brcatalog/1000/12704_0.jpg"
+            },
+            {
+                "name": "צ'יפס זיגזג גדול (M)",
+                "vegan": true,
+                "image": "https://cdn.paypo.com/images/brcatalog/1000/12300_2.jpg"
+            },
+            {
+                "name": "טבעות בצל גדול (M)",
+                "vegan": true,
+                "image": "https://cdn.paypo.com/images/brcatalog/1000/12301_1.jpg"
+            },
+            {
+                "name": "ציפס בטטה רגיל (M)",
+                "vegan": true,
+                "image": "https://cdn.paypo.com/images/brcatalog/1000/12303_1.jpg"
+            },
+            {
+                "name": "מאנץ' קומבינה",
+                "description": "ציפס, 4 טבעות בצל ושתי נקניקיות",
+                "vegan": true,
+                "image": "https://cdn.paypo.com/images/brcatalog/1000/12304_0.jpg"
+            },
+            {
+                "name": "פופסים",
+                "vegan": true,
+                "image": "https://cdn.paypo.com/images/brcatalog/1000/12306_3.jpg"
+            },
+            {
+                "name": "סלט קצוץ אישי",
+                "vegan": true
+            },
+            {
+                "name": "שוקופאי",
+                "vegan": true,
+                "image": "https://cdn.paypo.com/images/burgeranchrosen/1000/12400_0.jpg"
+            },
+            {
+                "name": "וולקנו",
+                "vegan": true,
+                "image": "https://cdn.paypo.com/images/brcatalog/1000/12401_0.jpg"
+            },
+            {
+                "name": "לוטוס פאי",
+                "vegan": true,
+                "image": "https://cdn.paypo.com/images/brcatalog/1000/12402_0.jpg"
+            },
+            {
+                "name": "מים מינרלים 0.5 ליטר",
+                "vegan": true,
+                "image": "https://cdn.paypo.com/images/brcatalog/1000/12500_0.jpg"
+            },
+            {
+                "name": "בקבוק קוקה קולה 0.5 ליטר",
+                "vegan": true,
+                "image": "https://cdn.paypo.com/images/brcatalog/1000/12501_0.jpg"
+            },
+            {
+                "name": "בקבוק קולה זירו 0.5 ליטר",
+                "vegan": true,
+                "image": "https://cdn.paypo.com/images/brcatalog/1000/12502_0.jpg"
+            },
+            {
+                "name": "בקבוק ספרייט 0.5 ליטר",
+                "vegan": true,
+                "image": "https://cdn.paypo.com/images/brcatalog/1000/12503_0.jpg"
+            },
+            {
+                "name": "בקבוק פאנטה 0.5 ליטר",
+                "vegan": true,
+                "image": "https://cdn.paypo.com/images/brcatalog/1000/12504_0.jpg"
+            },
+            {
+                "name": "בקבוק ענבים 0.5 ליטר",
+                "vegan": true,
+                "image": "https://cdn.paypo.com/images/brcatalog/1000/12505_0.jpg"
+            },
+            {
+                "name": "בקבוק תפוזים 0.5 ליטר",
+                "vegan": true,
+                "image": "https://cdn.paypo.com/images/brcatalog/1000/12506_0.jpg"
+            },
+            {
+                "name": "בקבוק פיוזטי 0.5 ליטר",
+                "vegan": true,
+                "image": "https://cdn.paypo.com/images/brcatalog/1000/12507_0.jpg"
+            }
+        ]
+    }
+]
