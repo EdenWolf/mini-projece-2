@@ -34,20 +34,28 @@ function keyWordsFilter(menuItemName, menuItemDescription, veganFilter) {
 function filterLocal() {
   const files = fs.readdirSync("../JSON Files/RestaurantsData/");
   files.forEach((fileName) => {
-    const file = fs.readFileSync(`../JSON Files/RestaurantsData/${fileName}`);
-    const fileData = JSON.parse(file);
-    const newData = {
-      ...fileData,
-      menu: fileData.menu.map((menuItem) => ({
-        ...menuItem,
-        vegan: keyWordsFilter(menuItem.name, menuItem.description, true),
-        vegetarian:
-          keyWordsFilter(menuItem.name, menuItem.description, true) ||
-          keyWordsFilter(menuItem.name, menuItem.description, false),
-      })),
-    };
-    const jsonData = JSON.stringify(newData);
-    fs.writeFileSync(`../JSON Files/RestaurantsData/${fileName}`, jsonData);
+    try {
+      const file = fs.readFileSync(`../JSON Files/RestaurantsData/${fileName}`);
+      const fileData = JSON.parse(file);
+      const newData = {
+        ...fileData,
+        menu: fileData.menu.map((menuItem) => ({
+          ...menuItem,
+          vegan:
+            keyWordsFilter(menuItem.name, menuItem.description, false) &&
+            keyWordsFilter(menuItem.name, menuItem.description, true),
+          vegetarian: keyWordsFilter(
+            menuItem.name,
+            menuItem.description,
+            false
+          ),
+        })),
+      };
+      const jsonData = JSON.stringify(newData);
+      fs.writeFileSync(`../JSON Files/RestaurantsData/${fileName}`, jsonData);
+    } catch (error) {
+      console.log(fileName);
+    }
   });
 }
 
