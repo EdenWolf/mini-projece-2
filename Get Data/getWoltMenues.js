@@ -7,12 +7,16 @@ function getWoltRestaurantUrl(restaurant) {
 }
 
 function getWoltMenuItems(menuData) {
-  const menuItems = menuData.items.filter((item) => keyWordsFilter(item));
+  const menuItems = menuData.items;
 
   return menuItems.map((item) => ({
     name: item.name,
     description: item.description,
+    price: item.baseprice / 100,
     vegan: keyWordsFilter(item.name, item.description, true),
+    vegetarian:
+      keyWordsFilter(item.name, item.description, true) ||
+      keyWordsFilter(item.name, item.description, false),
     image: item.image,
   }));
 }

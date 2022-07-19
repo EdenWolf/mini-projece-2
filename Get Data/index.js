@@ -35,5 +35,9 @@ const duplicatesToCheck = JSON.parse(duplicatesToCheckFile);
 // removeDuplicates(duplicatesData, _10bisData, woltData);
 
 // 3 - Get menues
-// getMenuesData("Wolt");
-getMenuesData("10bis");
+// Get all the menues
+// getMenuesData("Wolt", true);
+// getMenuesData("10bis", true);
+// Ignore menues we already have
+// getMenuesData("Wolt", false);
+// getMenuesData("10bis", false);

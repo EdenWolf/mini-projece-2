@@ -22,11 +22,23 @@ function get10bisMenuItems(menuData) {
   return data.map((item) => ({
     name: item.name || item.dishName,
     description: item.description || item.dishDescription,
+    price: item.price || item.dishPrice,
     vegan: keyWordsFilter(
       item.name || item.dishName,
       item.description || item.dishDescription,
       true
     ),
+    vegetarian:
+      keyWordsFilter(
+        item.name || item.dishName,
+        item.description || item.dishDescription,
+        true
+      ) ||
+      keyWordsFilter(
+        item.name || item.dishName,
+        item.description || item.dishDescription,
+        false
+      ),
     image: item.imageUrl || item.dishImageUrl,
   }));
 }
