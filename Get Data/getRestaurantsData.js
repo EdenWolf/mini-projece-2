@@ -8,7 +8,7 @@ async function getData(url) {
   try {
     return await axios.get(url);
   } catch (error) {
-    console.log(error.codes);
+    // console.log(error.codes);
   }
 }
 

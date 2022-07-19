@@ -6,6 +6,7 @@ const {
   removeDuplicates,
 } = require("./restaurantsLocationFilter");
 const { getMenuesData } = require("./getMenuesData");
+const { filterLocal } = require("./keyWordsFilter");
 const fs = require("fs");
 // Read from files
 const duplicatesFile = fs.readFileSync("../JSON Files/duplicatesToRemove.json");
@@ -41,3 +42,7 @@ const duplicatesToCheck = JSON.parse(duplicatesToCheckFile);
 // Ignore menues we already have
 // getMenuesData("Wolt", false);
 // getMenuesData("10bis", false);
+
+// 4 - Filter vegan / vegeterian again if needed
+
+filterLocal();
