@@ -47,8 +47,15 @@ async function getMenuesData(sourceName, filter) {
             `get${sourceName}MenuItems(menuData)`
           );
           console.log(formattedMenuItems.length);
+          const priceAverage =
+            formattedMenuItems.reduce((sum, item) => sum + item.price, 0) /
+            formattedMenuItems.length;
 
-          const resData = { ...restaurant, menu: formattedMenuItems };
+          const resData = {
+            ...restaurant,
+            priceAverage,
+            menu: formattedMenuItems,
+          };
 
           const jsonData = JSON.stringify(resData);
           fs.writeFileSync(
