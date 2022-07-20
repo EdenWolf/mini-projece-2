@@ -31,6 +31,24 @@ function keyWordsFilter(menuItemName, menuItemDescription, veganFilter) {
   return true;
 }
 
+function filterNotFood(menuItemName, menuItemDescription, kindOfFilter) {
+  const filterKeyWordsFile = fs.readFileSync(
+    "../JSON Files/filterKeyWords.json"
+  );
+  const keyWordsData = JSON.parse(filterKeyWordsFile);
+  const keyWords =
+    kindOfFilter === "notFood" ? keyWordsData.notFood : keyWordsData.drinks;
+  for (let i = 0; i < keyWords.length; i++) {
+    if (
+      (menuItemName && menuItemName.includes(keyWords[i])) ||
+      (menuItemDescription && menuItemDescription.includes(keyWords[i]))
+    ) {
+      return true;
+    }
+  }
+  return false;
+}
+
 function filterLocal() {
   const files = fs.readdirSync("../JSON Files/RestaurantsData/");
   files.forEach((fileName) => {
@@ -49,6 +67,12 @@ function filterLocal() {
             menuItem.description,
             false
           ),
+          notFood: filterNotFood(
+            menuItem.name,
+            menuItem.description,
+            "notFood"
+          ),
+          drinks: filterNotFood(menuItem.name, menuItem.description, "drinks"),
         })),
       };
       const jsonData = JSON.stringify(newData);
