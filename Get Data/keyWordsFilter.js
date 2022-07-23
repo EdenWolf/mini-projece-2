@@ -55,8 +55,19 @@ function filterLocal() {
     try {
       const file = fs.readFileSync(`../JSON Files/RestaurantsData/${fileName}`);
       const fileData = JSON.parse(file);
+      let skip = 0;
+      const average =
+        fileData.menu.reduce((sum, item) => {
+          if (item.price) {
+            return sum + item.price;
+          }
+          skip++;
+          return sum;
+        }, 0) /
+        (fileData.menu.length - skip);
       const newData = {
         ...fileData,
+        priceAverage: average,
         menu: fileData.menu.map((menuItem) => ({
           ...menuItem,
           vegan:

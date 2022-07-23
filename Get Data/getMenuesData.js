@@ -45,8 +45,10 @@ async function getMenuesData(sourceName, filter) {
               `get${sourceName}MenuItems(menuData)`
             );
             const priceAverage =
-              formattedMenuItems.reduce((sum, item) => sum + item.price, 0) /
-              formattedMenuItems.length;
+              formattedMenuItems.reduce(
+                (sum, item) => sum + (item.price ? item.price : 0),
+                0
+              ) / formattedMenuItems.length;
 
             const resData = {
               ...restaurant,
