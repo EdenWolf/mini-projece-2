@@ -84,3 +84,7 @@ http://www.linguisticanthropology.org/blog/2014/09/16/jurafsky-the-language-of-f
 
 כתבה בה מדובר על העליה בכמות הטבעונים והצמחונים בשנים האחרונות.
 
+
+## אתר התוצאות
+
+https://edenwolfson93.wixsite.com/miniproject
