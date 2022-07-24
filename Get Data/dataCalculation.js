@@ -20,6 +20,7 @@ function createNewWordData(fileData, menuItem, isInName) {
     inDescription: isInName ? 0 : 1,
     vegan: menuItem.vegan ? 1 : 0,
     vegetarian: menuItem.vegetarian ? 1 : 0,
+    notVegetarian: !menuItem.vegetarian ? 1 : 0,
   };
 }
 
@@ -72,6 +73,9 @@ function updateWordData(word, newData, fileData, menuItem, isInName) {
   } else if (menuItem.vegetarian) {
     // update vegetarian
     newData[word].vegetarian++;
+  } else {
+    // update notVegetarian
+    newData[word].notVegetarian++;
   }
 }
 
@@ -82,25 +86,14 @@ function hasNumber(myString) {
 function getAllCommonWords() {
   const files = fs.readdirSync("../JSON Files/RestaurantsData/");
   const length = files.length;
-  const example = [files[0], files[1], files[2]];
   let done = 0;
   let newData = {};
 
   function handleSentence(sentence, fileData, menuItem, isInName) {
     if (sentence) {
-      sentence.split(/[^a-zA-Zא-ת]/g).forEach((word) => {
-        let newWord =
-          word[0] === "ה" || word[0] === "ו" || word[0] === "ב"
-            ? word.substring(1)
-            : word;
-        newWord =
-          word[word.length - 1] === "ם" && word[word.length - 2] === "י"
-            ? word.substring(-2)
-            : word;
-
-        if (newData[newWord]) {
-          word = newWord;
-        }
+      sentence.split(/[^a-zA-Zא-ת\'\"]/g).forEach((word) => {
+        word = word.replace(/\"/g, "");
+        word = word.replace(/\'/g, "");
 
         if (word.length >= 2 && !hasNumber(word)) {
           // if the word exists
@@ -131,7 +124,7 @@ function getAllCommonWords() {
       console.log(error);
     }
     done++;
-    console.log(`Done: ${Math.trunc((done / length) * 100)}%`);
+    console.log(`getAllCommonWords: ${Math.trunc((done / length) * 100)}%`);
   });
   // Print to file
   const jsonData = JSON.stringify(newData);

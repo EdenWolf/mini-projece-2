@@ -8,7 +8,12 @@ const {
 const { getMenuesData } = require("./getMenuesData");
 const { filterLocal } = require("./keyWordsFilter");
 const { getAllCommonWords } = require("./dataCalculation");
-const { sortByCountAll } = require("./sortWords");
+const { addPricaRanges } = require("./fixCalculatedData");
+const { printAll } = require("./printFinalInfo");
+const {
+  sortByCountAll,
+  sortByCountDietaryRestrictions,
+} = require("./sortWords");
 const fs = require("fs");
 // Read from files
 const duplicatesFile = fs.readFileSync("../JSON Files/duplicatesToRemove.json");
@@ -47,12 +52,18 @@ const duplicatesToCheck = JSON.parse(duplicatesToCheckFile);
 
 // 4 - Filter vegan / vegeterian again if needed
 
-// filterLocal();
+filterLocal();
 
 // 5 - Calculate Data
 
-// getAllCommonWords();
+getAllCommonWords();
+addPricaRanges();
 
 // 6 - Sort
 
 sortByCountAll();
+sortByCountDietaryRestrictions();
+
+// 7 - Print importent information
+
+printAll();

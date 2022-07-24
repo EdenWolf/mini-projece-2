@@ -51,7 +51,11 @@ function filterNotFood(menuItemName, menuItemDescription, kindOfFilter) {
 
 function filterLocal() {
   const files = fs.readdirSync("../JSON Files/RestaurantsData/");
+  let count = 0;
+  const dataSize = files.length;
   files.forEach((fileName) => {
+    count++;
+    console.log(`filterLocal: ${Math.trunc((count / dataSize) * 100)}%`);
     try {
       const file = fs.readFileSync(`../JSON Files/RestaurantsData/${fileName}`);
       const fileData = JSON.parse(file);

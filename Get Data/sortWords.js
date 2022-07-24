@@ -2,45 +2,68 @@ var fs = require("fs");
 
 function sortByCountAll() {
   const calculatedDataFile = fs.readFileSync(
-    `../JSON Files/calculatedWordsData.json`
+    `../JSON Files/fixedCalculatedWordsData.json`
   );
   const calculatedData = JSON.parse(calculatedDataFile);
-  let sortable = [];
+  const sortedData = sortData(calculatedData, "count");
 
-  for (var word in calculatedData) {
-    sortable.push([word, calculatedData[word].count]);
-  }
-
-  sortable.sort(function (a, b) {
-    return b[1] - a[1];
-  });
-
-  // console.log(sortable);
-
-  const jsonData = JSON.stringify(sortable);
+  const jsonData = JSON.stringify(sortedData);
   fs.writeFileSync(`../JSON Files/SortedData/sortedByCount.json`, jsonData);
 }
 
-// function sortByCountVegan() {
-//     const calculatedDataFile = fs.readFileSync(
-//         `../JSON Files/calculatedWordsData.json`
-//       );
-//       const calculatedData = JSON.parse(calculatedDataFile).filter(item => );
-//       let sortable = [];
+function sortData(data, countProperty) {
+  const keyWordsFile = fs.readFileSync(`../JSON Files/filterKeyWords.json`);
+  const keyWords = JSON.parse(keyWordsFile);
+  let sortedData = [];
 
-//       for (var word in calculatedData) {
-//         sortable.push([word, calculatedData[word].count]);
-//       }
+  for (var word in data) {
+    const diet = keyWords.all.includes(word)
+      ? "מהחי"
+      : keyWords.vegan.includes(word)
+      ? "צמחוני"
+      : "טבעוני";
+    sortedData.push([word, data[word][countProperty], diet]);
+  }
 
-//       sortable.sort(function (a, b) {
-//         return b[1] - a[1];
-//       });
+  sortedData.sort((a, b) => {
+    return b[1] - a[1];
+  });
 
-//       console.log(sortable);
+  return sortedData;
+}
 
-//       const jsonData = JSON.stringify(sortable);
-//       fs.writeFileSync(`../JSON Files/SortedData/sortedByCount.json`, jsonData);
-//     }
-// }
+function sortByCountDietaryRestrictions() {
+  const calculatedDataFile = fs.readFileSync(
+    `../JSON Files/fixedCalculatedWordsData.json`
+  );
+  const calculatedData = JSON.parse(calculatedDataFile);
 
-module.exports = { sortByCountAll };
+  // Sort vegan
+  const sortedDataVegan = sortData(calculatedData, "vegan");
+
+  let jsonData = JSON.stringify(sortedDataVegan);
+  fs.writeFileSync(
+    `../JSON Files/SortedData/sortedByCountVegan.json`,
+    jsonData
+  );
+
+  // Sort vegetarian
+  const sortedDataVegetarian = sortData(calculatedData, "vegetarian");
+
+  jsonData = JSON.stringify(sortedDataVegetarian);
+  fs.writeFileSync(
+    `../JSON Files/SortedData/sortedByCountVegetarian.json`,
+    jsonData
+  );
+
+  //Sort not vegetarian
+  const sortedDataNotVegetarian = sortData(calculatedData, "notVegetarian");
+
+  jsonData = JSON.stringify(sortedDataNotVegetarian);
+  fs.writeFileSync(
+    `../JSON Files/SortedData/sortedByCountNotVegetarian.json`,
+    jsonData
+  );
+}
+
+module.exports = { sortByCountAll, sortByCountDietaryRestrictions };
